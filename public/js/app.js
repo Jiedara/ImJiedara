@@ -822,7 +822,7 @@ function init_btn_open_content() {
 
     if ($(this).hasClass('active')) {
       $('.img-arrow, #main-content').fadeIn();
-      $('.navigation-list a[href="#about"]').tab('show')
+      $('.navigation-list a[href="#resume"]').tab('show')
       $("html,body").animate({
         scrollTop: $('#main-content').offset().top
       }, 600, function() {
@@ -832,7 +832,7 @@ function init_btn_open_content() {
         scrollTop: $('#wrapper').offset().top
       }, 600, function() {
         $('.img-arrow, #main-content').fadeOut();
-        $('#open-content').text('About Me');
+        $('#open-content').text('Resume');
       });
     }
   });
@@ -869,8 +869,9 @@ function init_text_wait() {
 
 function init_check_hash() {
   if (window.location.hash) {
-    var pages = ["#about", "#resume", "#portfolio", "#blog", "#contact"]
+    var pages = ["#resume", "#portfolio", "#contact"]
     if ($.inArray(window.location.hash, pages) > -1) {
+      console.log($('.navigation-list a[href="' + window.location.hash + '"]'));
       $('.navigation-list a[href="' + window.location.hash + '"]').tab('show');
       $('#open-content').text($('.navigation-list a[href="' + window.location.hash + '"]').text()).addClass('active');
       $('.img-arrow, #main-content').fadeIn(function() {
@@ -886,17 +887,6 @@ function init_check_hash() {
   }
 }
 
-function theme_option(selector) {
-  var css = $(selector).data('css');
-  if (css == "default") {
-    $('.them-option').remove();
-  } else {
-    $('head').append('<link href="assets/css/theme-option/' + css + '.css" rel="stylesheet" class="them-option">');
-  }
-  $('#modal').modal('hide');
-  return false;
-}
-
 function init_gmap() {
   $('.map-area #map').remove();
   $('.map-area').append('<div id="map"></div>');
@@ -904,10 +894,7 @@ function init_gmap() {
     $('#map').gmap3({
       action: 'init',
       marker: {
-        address: "Haltern am See, Weseler Str. 151",
-        options: {
-          icon: new google.maps.MarkerImage("./assets/images/marker.png")
-        }
+        address: "62 Rue Brizard 33000 Bordeaux",
       },
       map: {
         options: {

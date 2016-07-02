@@ -152,11 +152,8 @@ Main Section Section
 ========================================== */
 /* wrapper for content section */
 #main-content {
-  display: none;
+  display: block;
   position: relative;
-}
-#main-content.open {
-  display: block !important;
 }
 .content {
   background: white;
@@ -189,7 +186,7 @@ Main Section Section
   }
 }
 #navigation .navigation-list {
-  max-width: 946px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   list-style: none;
@@ -200,7 +197,7 @@ Main Section Section
 }
 #navigation .navigation-list li {
   float: left;
-  width: 20%;
+  width: 33.33%;
   text-align: center;
   position: relative;
 }
@@ -765,7 +762,6 @@ Main Section Section
   border: 3px solid  #63A4B5;
 }
 .title {
-  border-bottom: 1px solid #ddd;
   position: relative;
   padding-bottom: 15px;
   margin-bottom: 20px;

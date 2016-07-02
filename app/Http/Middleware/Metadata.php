@@ -19,9 +19,9 @@ class Metadata
         
         # Default meta data
         
-        Meta::title('Bulk'); // Complete title
-        Meta::meta('title', 'Title default');
-        Meta::meta('description','Description default');
+        Meta::title('Portfolio'); // Complete title
+        Meta::meta('title', 'I\'m Jiedara');
+        Meta::meta('description','Left handed in life, ambidextrous in development. I love making website, application to help people, public license, functional programming, cookies & ponies!');
         Meta::meta('robots', 'index,follow');
         Meta::meta('image', asset('img/default.jpg'));
         
