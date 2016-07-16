@@ -5,22 +5,9 @@ $(document).ready(function() {
   init_active_nav();
   init_back_to_top();
   init_plugins();
-  init_btn_open_content();
   init_nav_event();
   init_btn_love();
-  init_modal_optional();
 });
-
-function init_modal_optional() {
-  if ($('.ajax_link').length > 0) {
-    $('.ajax_link').click(function(e) {
-      var html = $(this).attr("href");
-      $('#modal').html("").load(html);
-      $('#modal').modal('show');
-      return false;
-    });
-  }
-}
 
 function init_btn_love() {
   $('.love-post-btn a').click(function() {
@@ -57,28 +44,6 @@ function init_back_to_top() {
   });
 }
 
-function init_btn_open_content() {
-  $('#open-content').click(function() {
-    $(this).toggleClass('active');
-
-    if ($(this).hasClass('active')) {
-      $('.img-arrow, #main-content').fadeIn();
-      $('.navigation-list a[href="#resume"]').tab('show')
-      $("html,body").animate({
-        scrollTop: $('#main-content').offset().top
-      }, 600, function() {
-      });
-    } else {
-      $("html,body").animate({
-        scrollTop: $('#wrapper').offset().top
-      }, 600, function() {
-        $('.img-arrow, #main-content').fadeOut();
-        $('#open-content').text('Resume');
-      });
-    }
-  });
-}
-
 function init_nav_event() {
   $('.navigation-list a').click(function(e) {
     $(this).tab('show');
@@ -112,10 +77,8 @@ function init_check_hash() {
   if (window.location.hash) {
     var pages = ["#resume", "#portfolio", "#contact"]
     if ($.inArray(window.location.hash, pages) > -1) {
-      console.log($('.navigation-list a[href="' + window.location.hash + '"]'));
-      $('.navigation-list a[href="' + window.location.hash + '"]').tab('show');
-      $('#open-content').text($('.navigation-list a[href="' + window.location.hash + '"]').text()).addClass('active');
-      $('.img-arrow, #main-content').fadeIn(function() {
+		$('a[href="' + window.location.hash + '"]').trigger('click');
+      	$('.img-arrow, #main-content').fadeIn(function() {
         $("html,body").animate({
           scrollTop: $('#main-content').offset().top
         }, 600, function() {
@@ -124,7 +87,11 @@ function init_check_hash() {
       if (window.location.hash == "#contact") {
         init_gmap();
       }
-    }
+    }else {
+		$('a[href="#resume"]').trigger('click');
+	}
+  }else {
+	  $('a[href="#resume"]').trigger('click');
   }
 }
 

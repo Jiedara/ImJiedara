@@ -576,7 +576,7 @@ body {
   -moz-transition: background 0.3s ease 0s;
   -o-transition: background 0.3s ease 0s;
   -ms-transition: background 0.3s ease 0s;
-  background: #3a5a75;
+  background: #4B6F78;
   line-height: 24px;
   font-family: 'Open Sans', sans-serif;
   color: #7f7f7f;
@@ -606,7 +606,7 @@ body h6 {
   right: -50px;
   width: 50px;
   text-align: center;
-  color: #ddd;
+  color: white;
   background: #4B6F78;
   bottom: 0;
   z-index: 999;
@@ -616,7 +616,6 @@ body h6 {
   -o-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
   padding: 13px;
-  box-shadow: 0 10px 0 #36546d;
 }
 
 #wrapper #backtotop:hover {
@@ -635,6 +634,15 @@ body h6 {
     padding: 40px 0 0;
   }
 }
+.tooltip-text {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.no-padding {
+  padding: 0;
+}
+
 /* end wrapper page section */
 /* ======================================= 
 Header Section 
@@ -647,7 +655,6 @@ Header Section
   border-bottom: 20px solid #e1e1e1;
   padding-bottom: 25px;
   margin-bottom: 10px;
-  box-shadow: 0 10px 0 #36546d;
 }
 
 .portrait .img-arrow {
@@ -688,6 +695,7 @@ Header Section
 
 .portrait .portrait-img-area .avatar {
   width: 140px;
+  border-radius: 50%;
 }
 
 .portrait .portrait-img-area .profile-links a {
@@ -699,14 +707,14 @@ Header Section
   font-size: 12px;
 }
 
-.portrait .portrait-img-area .profile-links a.facebook {
+.portrait .portrait-img-area .profile-links a.linkedin {
   left: -10px;
   bottom: 0;
   background: #2C92AC;
   color: white;
 }
 
-.portrait .portrait-img-area .profile-links a.twitter {
+.portrait .portrait-img-area .profile-links a.github {
   right: -10px;
   bottom: 0;
   background: #2C92AC;
@@ -739,7 +747,6 @@ Main Section Section
 .content {
   background: white;
   padding-top: 80px;
-  box-shadow: 0 10px 0 #36546d;
 }
 
 /* end content section */
@@ -782,17 +789,14 @@ Main Section Section
 }
 
 #navigation .navigation-list li {
-  float: left;
-  width: 33.33%;
   text-align: center;
-  position: relative;
 }
 
 #navigation .navigation-list li a {
   display: block;
   padding: 15px;
   background: #2C92AC;
-  color: #ddd;
+  color: white;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 300;
@@ -888,7 +892,7 @@ Main Section Section
 }
 
 #about .box-testimonial .oComment {
-  background: #249EBD;
+  background: #249ebd;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -900,7 +904,7 @@ Main Section Section
 #about .box-testimonial .oComment:after {
   content: "";
   position: absolute;
-  border-left: 10px solid #249EBD;
+  border-left: 10px solid #249ebd;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   top: 40px;
@@ -924,7 +928,7 @@ Main Section Section
   border-radius: 50%;
   border: 1px solid #ddd;
   width: 26px;
-  color: #249EBD;
+  color: #249ebd;
   text-align: center;
   background: white;
   transition: all 0.3s ease 0s;
@@ -935,7 +939,7 @@ Main Section Section
 }
 
 #about .control-testi-slider a:hover {
-  background: #249EBD;
+  background: #249ebd;
   color: white;
   border: 1px solid transparent;
 }
@@ -997,7 +1001,7 @@ Main Section Section
   left: -32px;
   top: -10px;
   border-radius: 50%;
-  background: #63A4B5;
+  background: #63a4b5;
   display: inline-block;
   padding: 12px 7px;
   text-align: center;
@@ -1018,7 +1022,7 @@ Main Section Section
 #resume .time-line .item-event .event-content h5 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #63A4B5;
+  color: #63a4b5;
 }
 
 #resume .caption-skill {
@@ -1036,7 +1040,7 @@ Main Section Section
   border-radius: 5px;
   text-align: right;
   position: relative;
-  background: #63A4B5;
+  background: #63a4b5;
   box-shadow: none;
 }
 
@@ -1067,15 +1071,15 @@ Main Section Section
   background: #4B6F78;
 }
 
-#resume .list-points-progress li .pogress-point {
+#resume .list-points-progress li .progress-point {
   background: url("../images/point.png") repeat-x;
   height: 20px;
-  max-width: 200px;
+  max-width: 300px;
   position: relative;
   margin-bottom: 20px;
 }
 
-#resume .list-points-progress li .pogress-point .point-indicator {
+#resume .list-points-progress li .progress-point .point-indicator {
   position: absolute;
   background: #4B6F78;
   width: 30px;
@@ -1089,7 +1093,7 @@ Main Section Section
   border-radius: 5px;
 }
 
-#resume .list-points-progress li .pogress-point .point-indicator:before {
+#resume .list-points-progress li .progress-point .point-indicator:before {
   content: "";
   position: absolute;
   left: -5px;
@@ -1100,13 +1104,13 @@ Main Section Section
   border-bottom: 5px solid transparent;
 }
 
-#resume .list-points-progress li .pogress-point .progress-bar-point {
+#resume .list-points-progress li .progress-point .progress-bar-point {
   background: #BA4E4E;
   height: 20px;
   position: relative;
 }
 
-#resume .list-points-progress li .pogress-point .progress-bar-point:after {
+#resume .list-points-progress li .progress-point .progress-bar-point:after {
   content: "";
   position: absolute;
   height: 20px;
@@ -1134,7 +1138,7 @@ Main Section Section
 
 #portfolio .control-profolio li.active,
 #portfolio .control-profolio li:hover {
-  border: 3px solid #63A4B5;
+  border: 3px solid #63a4b5;
   cursor: pointer;
 }
 
@@ -1426,7 +1430,7 @@ Main Section Section
 
 .form-control:focus {
   box-shadow: none;
-  border: 3px solid  #63A4B5;
+  border: 3px solid #63a4b5;
 }
 
 .title {
@@ -1447,7 +1451,7 @@ Main Section Section
   padding-bottom: 10px;
   position: absolute;
   left: 0;
-  background: #249EBD;
+  background: #249ebd;
   padding: 10px;
   color: white;
   min-width: 40px;
@@ -1464,7 +1468,7 @@ Main Section Section
   left: 50%;
   margin-left: -10px;
   bottom: -10px;
-  border-top: 10px solid #249EBD;
+  border-top: 10px solid #249ebd;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -1511,13 +1515,13 @@ Main Section Section
 
 .btn-flat {
   background: #ba4e4e;
+  box-shadow: 0 5px 0 #a63838;
   color: white;
   font-weight: 300;
   padding-left: 20px;
   border-radius: 5px;
   margin-top: 5px;
   padding-right: 20px;
-  box-shadow: 0 5px 0 #a63838;
   position: relative;
   margin-bottom: 5px;
 }
@@ -1532,7 +1536,7 @@ Main Section Section
 }
 
 .btn-flat.style2 {
-  background: #63A4B5;
+  background: #63a4b5;
   box-shadow: 0 5px 0 #5b94a3;
 }
 
@@ -1741,7 +1745,7 @@ blockquote {
 }
 
 .link-options a:hover {
-  background: #63A4B5;
+  background: #63a4b5;
   color: white;
 }
 
@@ -1772,7 +1776,7 @@ blockquote {
 }
 
 .theme-option a:hover {
-  background: #63A4B5;
+  background: #63a4b5;
   color: white;
 }
 
@@ -1783,7 +1787,7 @@ Footer Section
 /* wrapper footer section */
 .footer {
   text-align: center;
-  color: #ddd;
+  color: white;
   font-weight: 300;
   position: relative;
   z-index: 2;

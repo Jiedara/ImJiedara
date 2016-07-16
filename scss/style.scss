@@ -24,7 +24,7 @@ body {
   -moz-transition: background 0.3s ease 0s;
   -o-transition: background 0.3s ease 0s;
   -ms-transition: background 0.3s ease 0s;
-  background: #3a5a75;
+  background: $darkblue;
   line-height: 24px;
   font-family: 'Open Sans', sans-serif;
   color: #7f7f7f;
@@ -50,8 +50,8 @@ body h6 {
   right: -50px;
   width: 50px;
   text-align: center;
-  color: #ddd;
-  background: #4B6F78;
+  color:white;
+  background: $darkblue;
   bottom: 0;
   z-index: 999;
   transition: all 0.3s ease 0s;
@@ -60,7 +60,6 @@ body h6 {
   -o-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
   padding: 13px;
-  box-shadow: 0 10px 0 #36546d;
 }
 #wrapper #backtotop:hover {
   background: #BA4E4E;
@@ -77,6 +76,18 @@ body h6 {
     padding: 40px 0 0;
   }
 }
+
+//HELPERS
+
+.tooltip-text{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.no-padding{
+	padding: 0;
+}
+
+
 /* end wrapper page section */
 /* ======================================= 
 Header Section 
@@ -89,7 +100,6 @@ Header Section
   border-bottom: 20px solid #e1e1e1;
   padding-bottom: 25px;
   margin-bottom: 10px;
-  box-shadow: 0 10px 0 #36546d;
 }
 .portrait .img-arrow {
   display: none;
@@ -102,14 +112,14 @@ Header Section
   position: relative;
   max-width: 350px;
   margin: 30px auto;
-  background: #249ebd;
+  background: $blue;
   padding: 10px 15px;
   color: white;
   border-radius: 10px;
 }
 .portrait .box-note:after {
   content: "";
-  border-top: 10px solid #249ebd;
+  border-top: 10px solid $blue;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   position: absolute;
@@ -123,7 +133,8 @@ Header Section
   position: relative;
 }
 .portrait .portrait-img-area .avatar {
-  width: 140px;
+    width: 140px;
+    border-radius: 50%;
 }
 .portrait .portrait-img-area .profile-links a {
   position: absolute;
@@ -133,13 +144,13 @@ Header Section
   background: #e1e1e1;
   font-size: 12px;
 }
-.portrait .portrait-img-area .profile-links a.facebook {
+.portrait .portrait-img-area .profile-links a.linkedin {
   left: -10px;
   bottom: 0;
   background: #2C92AC;
   color: white;
 }
-.portrait .portrait-img-area .profile-links a.twitter {
+.portrait .portrait-img-area .profile-links a.github {
   right: -10px;
   bottom: 0;
   background: #2C92AC;
@@ -168,7 +179,6 @@ Main Section Section
 .content {
   background: white;
   padding-top: 80px;
-  box-shadow: 0 10px 0 #36546d;
 }
 /* end content section */
 /* Start  wrapper for navigation section*/
@@ -206,26 +216,23 @@ Main Section Section
   width: 100%;
 }
 #navigation .navigation-list li {
-  float: left;
-  width: 33.33%;
   text-align: center;
-  position: relative;
 }
 #navigation .navigation-list li a {
   display: block;
   padding: 15px;
   background: #2C92AC;
-  color: #ddd;
+  color:white;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 300;
   text-decoration: none;
 }
 #navigation .navigation-list li:nth-child(even).active:after {
-  border-top: 10px solid #63a4b5;
+  border-top: 10px solid $lightblue;
 }
 #navigation .navigation-list li:nth-child(even) a {
-  background: #63a4b5;
+  background: $lightblue;
 }
 #navigation .navigation-list li.active:after {
   content: "";
@@ -299,7 +306,7 @@ Main Section Section
   top: 5px;
 }
 #about .box-testimonial .oComment {
-  background: #249EBD;
+  background: $blue;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -310,7 +317,7 @@ Main Section Section
 #about .box-testimonial .oComment:after {
   content: "";
   position: absolute;
-  border-left: 10px solid #249EBD;
+  border-left: 10px solid $blue;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   top: 40px;
@@ -331,7 +338,7 @@ Main Section Section
   border-radius: 50%;
   border: 1px solid #ddd;
   width: 26px;
-  color: #249EBD;
+  color: $blue;
   text-align: center;
   background: white;
   transition: all 0.3s ease 0s;
@@ -341,7 +348,7 @@ Main Section Section
   -ms-transition: all 0.3s ease 0s;
 }
 #about .control-testi-slider a:hover {
-  background: #249EBD;
+  background: $blue;
   color: white;
   border: 1px solid transparent;
 }
@@ -383,18 +390,18 @@ Main Section Section
   padding-top: 10px;
 }
 #resume .time-line .item-event.current .date {
-  border: 5px solid #4B6F78;
-  background: #4B6F78;
+  border: 5px solid $darkblue;
+  background: $darkblue;
 }
 #resume .time-line .item-event.current .event-content {
-  border: 3px solid #4B6F78;
+  border: 3px solid $darkblue;
 }
 #resume .time-line .item-event .date {
   position: absolute;
   left: -32px;
   top: -10px;
   border-radius: 50%;
-  background: #63A4B5;
+  background: $lightblue;
   display: inline-block;
   padding: 12px 7px;
   text-align: center;
@@ -413,7 +420,7 @@ Main Section Section
 #resume .time-line .item-event .event-content h5 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #63A4B5;
+  color: $lightblue;
 }
 #resume .caption-skill {
   display: block;
@@ -428,7 +435,7 @@ Main Section Section
   border-radius: 5px;
   text-align: right;
   position: relative;
-  background: #63A4B5;
+  background: $lightblue;
   box-shadow: none;
 }
 #resume .list-skills li .progress .progress-bar span {
@@ -453,18 +460,18 @@ Main Section Section
   border-right: 5px solid transparent;
 }
 #resume .list-skills li:nth-child(even) .progress-bar {
-  background: #4B6F78;
+  background: $darkblue;
 }
-#resume .list-points-progress li .pogress-point {
+#resume .list-points-progress li .progress-point {
   background: url('../images/point.png') repeat-x;
   height: 20px;
-  max-width: 200px;
+  max-width: 300px;
   position: relative;
   margin-bottom: 20px;
 }
-#resume .list-points-progress li .pogress-point .point-indicator {
+#resume .list-points-progress li .progress-point .point-indicator {
   position: absolute;
-  background: #4B6F78;
+  background: $darkblue;
   width: 30px;
   height: 21px;
   display: inline-block;
@@ -475,22 +482,22 @@ Main Section Section
   top: 0;
   border-radius: 5px;
 }
-#resume .list-points-progress li .pogress-point .point-indicator:before {
+#resume .list-points-progress li .progress-point .point-indicator:before {
   content: "";
   position: absolute;
   left: -5px;
   top: 50%;
   margin-top: -5px;
-  border-right: 5px solid #4B6F78;
+  border-right: 5px solid $darkblue;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
 }
-#resume .list-points-progress li .pogress-point .progress-bar-point {
+#resume .list-points-progress li .progress-point .progress-bar-point {
   background: #BA4E4E;
   height: 20px;
   position: relative;
 }
-#resume .list-points-progress li .pogress-point .progress-bar-point:after {
+#resume .list-points-progress li .progress-point .progress-bar-point:after {
   content: "";
   position: absolute;
   height: 20px;
@@ -515,7 +522,7 @@ Main Section Section
 }
 #portfolio .control-profolio li.active,
 #portfolio .control-profolio li:hover {
-  border: 3px solid #63A4B5;
+  border: 3px solid $lightblue;
   cursor: pointer;
 }
 #portfolio .grid-portfolio {
@@ -769,7 +776,7 @@ Main Section Section
 }
 .form-control:focus {
   box-shadow: none;
-  border: 3px solid  #63A4B5;
+  border: 3px solid  $lightblue;
 }
 .title {
   position: relative;
@@ -787,7 +794,7 @@ Main Section Section
   padding-bottom: 10px;
   position: absolute;
   left: 0;
-  background: #249EBD;
+  background: $blue;
   padding: 10px;
   color: white;
   min-width: 40px;
@@ -803,7 +810,7 @@ Main Section Section
   left: 50%;
   margin-left: -10px;
   bottom: -10px;
-  border-top: 10px solid #249EBD;
+  border-top: 10px solid $blue;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -843,13 +850,13 @@ Main Section Section
 }
 .btn-flat {
   background: #ba4e4e;
+  box-shadow: 0 5px 0 #a63838;
   color: white;
   font-weight: 300;
   padding-left: 20px;
   border-radius: 5px;
   margin-top: 5px;
   padding-right: 20px;
-  box-shadow: 0 5px 0 #a63838;
   position: relative;
   margin-bottom: 5px;
 }
@@ -862,7 +869,7 @@ Main Section Section
   box-shadow: none;
 }
 .btn-flat.style2 {
-  background: #63A4B5;
+  background: $lightblue;
   box-shadow: 0 5px 0 #5b94a3;
 }
 .imgWrapper {
@@ -898,7 +905,7 @@ Main Section Section
   padding: 10px;
   margin-bottom: 6px;
   border-radius: 5px;
-  background: #4B6F78;
+  background: $darkblue;
 }
 .list-strip li:nth-child(even) {
   background: #BA4E4E;
@@ -914,7 +921,7 @@ Main Section Section
   position: absolute;
   left: 0;
   font-size: 12px;
-  color: #4B6F78;
+  color: $darkblue;
   bottom: 50%;
 }
 .nav-blog .btn-big-blog {
@@ -941,7 +948,7 @@ Main Section Section
   padding: 10px 15px;
   position: absolute;
   right: 0;
-  color: #4B6F78;
+  color: $darkblue;
   bottom: 50%;
 }
 .flat-pagination .pagination > li > a,
@@ -1046,7 +1053,7 @@ blockquote {
   display: block;
 }
 .link-options a:hover {
-  background: #63A4B5;
+  background: $lightblue;
   color: white;
 }
 @media (max-width: 500px) {
@@ -1074,7 +1081,7 @@ blockquote {
   -ms-transition: all 0.3s ease 0s;
 }
 .theme-option a:hover {
-  background: #63A4B5;
+  background: $lightblue;
   color: white;
 }
 /*End  Global CLass */
@@ -1084,7 +1091,7 @@ Footer Section
 /* wrapper footer section */
 .footer {
   text-align: center;
-  color: #ddd;
+  color:white;
   font-weight: 300;
   position: relative;
   z-index: 2;
