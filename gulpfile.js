@@ -33,17 +33,6 @@ gulp.task('compass', function () {
 		.pipe(minifyCSS())
 		.pipe(concat('style.min.css'))
 		.pipe(gulp.dest(cssPath));
-
-	gulp.src([scssPath + '/admin.scss'])
-		.pipe(compass({
-			config_file: './config.rb',
-			css: cssPath,
-			sass: scssPath
-		}))
-		.pipe(plumber())
-		.pipe(minifyCSS())
-		.pipe(concat('admin.min.css'))
-		.pipe(gulp.dest(cssPath));
 });
 
 gulp.task('watch', function () {

@@ -103,78 +103,78 @@ body h6 {
 .fa-javascript{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/js.png);
+		background-image:url(../img/icons/js.png);
 	}
 }
 .fa-php{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/php.png);
+		background-image:url(../img/icons/php.png);
     	background-size: 110% 130%;
 	}
 }
 .fa-jquery{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/jquery.svg);
+		background-image:url(../img/icons/jquery.svg);
 	}
 }
 .fa-brackets{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/brackets.svg);
+		background-image:url(../img/icons/brackets.svg);
 	}
 }
 .fa-laravel{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/laravel.jpg);
+		background-image:url(../img/icons/laravel.jpg);
 		opacity: 1;
 	}
 }
 .fa-prestashop{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/prestashop.png);
+		background-image:url(../img/icons/prestashop.png);
 		opacity: 0.8;
 	}
 }
 .fa-illu{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/illu.svg);
+		background-image:url(../img/icons/illu.svg);
 	}
 }
 .fa-toshop{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/toshop.svg);
+		background-image:url(../img/icons/toshop.svg);
 	}
 }
 .fa-gulp{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/gulp.png);
+		background-image:url(../img/icons/gulp.png);
 	}
 }
 .fa-compass{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/compass.png);
+		background-image:url(../img/icons/compass.png);
 		opacity:0.7;
 	}
 }
 .fa-composer{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/composer.png);
+		background-image:url(../img/icons/composer.png);
 		opacity:0.7;
 	}
 }
 .fa-npm{
 	@extend .fa-customized;
 	&:before{
-		background-image:url(../img/npm.png);
+		background-image:url(../img/icons/npm.png);
 	}
 }
 
