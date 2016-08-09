@@ -1185,7 +1185,6 @@ Main Section Section
   margin-top: 30px;
   margin-bottom: 30px;
   min-height: 450px;
-  background: url(../images/loader.gif) no-repeat center center;
 }
 
 #contact .map-area #map {
@@ -1304,7 +1303,7 @@ Main Section Section
 
 .bg-line {
   height: 15px;
-  background: #e1e1e1 url(../images/bg-line.png) repeat-x center bottom;
+  background: #e1e1e1 repeat-x center bottom;
 }
 
 .body-content,
@@ -1349,7 +1348,6 @@ Main Section Section
 .imgWrapper {
   position: relative;
   display: block;
-  background: url(../images/loader.gif) no-repeat center center;
 }
 
 .imgWrapper img {
