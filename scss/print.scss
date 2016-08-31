@@ -1,5 +1,39 @@
 @media print {
-	#navigation, #backtotop, .download-block{
+	*:after,*:before{
 		display: none;
+	}
+	#navigation, #backtotop, .download-block,.bg-line{
+		display: none;
+	}
+	.portrait{
+		width: 100%;
+		.body-portrait{
+			width: 100%;
+		}
+		float: left;
+		&>div{
+			float: left;
+		}
+	}
+	#resume{
+		.list-skills {
+			li {
+				margin-left: 80px;
+				.caption-skill {
+					float: left;
+				}
+				.progress {
+					.progress-bar {
+						width: 0!important;
+						margin-top: -13px;
+						left: 50px;
+						position: absolute!important;
+					}
+				}
+			}
+		}
+		.with-icon{
+			margin-bottom: 0;
+		}
 	}
 }
