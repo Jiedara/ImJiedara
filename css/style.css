@@ -654,56 +654,56 @@ body h6 {
 }
 
 .fa-javascript:before {
-  background-image: url(../img/js.png);
+  background-image: url(../img/icons/js.png);
 }
 
 .fa-php:before {
-  background-image: url(../img/php.png);
+  background-image: url(../img/icons/php.png);
   background-size: 110% 130%;
 }
 
 .fa-jquery:before {
-  background-image: url(../img/jquery.svg);
+  background-image: url(../img/icons/jquery.svg);
 }
 
 .fa-brackets:before {
-  background-image: url(../img/brackets.svg);
+  background-image: url(../img/icons/brackets.svg);
 }
 
 .fa-laravel:before {
-  background-image: url(../img/laravel.jpg);
+  background-image: url(../img/icons/laravel.jpg);
   opacity: 1;
 }
 
 .fa-prestashop:before {
-  background-image: url(../img/prestashop.png);
+  background-image: url(../img/icons/prestashop.png);
   opacity: 0.8;
 }
 
 .fa-illu:before {
-  background-image: url(../img/illu.svg);
+  background-image: url(../img/icons/illu.svg);
 }
 
 .fa-toshop:before {
-  background-image: url(../img/toshop.svg);
+  background-image: url(../img/icons/toshop.svg);
 }
 
 .fa-gulp:before {
-  background-image: url(../img/gulp.png);
+  background-image: url(../img/icons/gulp.png);
 }
 
 .fa-compass:before {
-  background-image: url(../img/compass.png);
+  background-image: url(../img/icons/compass.png);
   opacity: 0.7;
 }
 
 .fa-composer:before {
-  background-image: url(../img/composer.png);
+  background-image: url(../img/icons/composer.png);
   opacity: 0.7;
 }
 
 .fa-npm:before {
-  background-image: url(../img/npm.png);
+  background-image: url(../img/icons/npm.png);
 }
 
 /* end wrapper page section */
@@ -902,6 +902,15 @@ Main Section Section
 }
 /* End wrapper for navigation section*/
 /* Start Stlye wrapper for resume content section*/
+#resume hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#resume .work-path {
+  border-right: 2px dashed;
+}
+
 #resume .time-line {
   position: relative;
   margin-top: 30px;
@@ -957,7 +966,13 @@ Main Section Section
 
 #resume .caption-skill {
   display: block;
-  margin-bottom: 5px;
+}
+
+#resume .list-nobar .caption-skill {
+  margin-bottom: 0.7rem;
+}
+#resume .list-nobar .title {
+  margin-bottom: 2rem;
 }
 
 #resume .list-skills li .progress {
@@ -982,7 +997,7 @@ Main Section Section
   right: -13px;
   display: inline-block;
   background: #D84E4E;
-  padding: 1px 5px;
+  padding: 0px 3px;
   border-radius: 5px;
 }
 
@@ -1319,7 +1334,7 @@ Main Section Section
 }
 
 .btn-flat {
-  background: #ba4e4e;
+  background: #BA4E4E;
   box-shadow: 0 5px 0 #a63838;
   color: white;
   font-weight: 300;

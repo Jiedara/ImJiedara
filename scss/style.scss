@@ -62,7 +62,7 @@ body h6 {
   padding: 13px;
 }
 #wrapper #backtotop:hover {
-  background: #BA4E4E;
+  background: $lightred;
   color: white;
 }
 @media (max-width: 800px) {
@@ -350,6 +350,13 @@ Main Section Section
 }
 /* End wrapper for navigation section*/
 /* Start Stlye wrapper for resume content section*/
+#resume hr{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#resume .work-path{
+	border-right: 2px dashed;
+}
 #resume .time-line {
   position: relative;
   margin-top: 30px;
@@ -398,7 +405,14 @@ Main Section Section
 }
 #resume .caption-skill {
   display: block;
-  margin-bottom: 5px;
+}
+#resume .list-nobar {
+	.caption-skill {
+		margin-bottom: 0.7rem;
+	}
+	.title{
+		margin-bottom: 2rem;
+	}
 }
 #resume .list-skills li .progress {
   height: 10px;
@@ -419,8 +433,8 @@ Main Section Section
   color: white;
   right: -13px;
   display: inline-block;
-  background: #D84E4E;
-  padding: 1px 5px;
+  background: $red;
+  padding: 0px 3px;
   border-radius: 5px;
 }
 #resume .list-skills li .progress .progress-bar span:after {
@@ -429,7 +443,7 @@ Main Section Section
   left: 50%;
   margin-left: -5px;
   top: -5px;
-  border-bottom: 5px solid #D84E4E;
+  border-bottom: 5px solid $red;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
 }
@@ -467,7 +481,7 @@ Main Section Section
   border-bottom: 5px solid transparent;
 }
 #resume .list-points-progress li .progress-point .progress-bar-point {
-  background: #BA4E4E;
+  background: $lightred;
   height: 20px;
   position: relative;
 }
@@ -715,7 +729,7 @@ Main Section Section
   min-height: 800px;
 }
 .btn-flat {
-  background: #ba4e4e;
+  background: $lightred;
   box-shadow: 0 5px 0 #a63838;
   color: white;
   font-weight: 300;
@@ -763,7 +777,7 @@ Main Section Section
   color: #5A96A6;
 }
 .imgWrapper .playbtn a:hover {
-  color: #BA4E4E;
+  color: $lightred;
 }
 .list-strip li {
   color: white;
@@ -773,7 +787,7 @@ Main Section Section
   background: $darkblue;
 }
 .list-strip li:nth-child(even) {
-  background: #BA4E4E;
+  background: $lightred;
 }
 blockquote {
   line-height: 30px;
