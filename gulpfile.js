@@ -15,7 +15,7 @@ gulp.task('default', ['script-concat', 'watch', 'compass']);
 
 gulp.task('script-concat', function () {
 
-	gulp.src([jsPath + '/script.js', '!' + jsPath + '/*.min.js', '!' + jsPath + '/admin.js'])
+	gulp.src([jsPath + '/script.js', '!' + jsPath + '/*.min.js'])
 		.pipe(plumber())
 		.pipe(concat('script.min.js'))
 		.pipe(uglify())
@@ -23,7 +23,7 @@ gulp.task('script-concat', function () {
 });
 
 gulp.task('compass', function () {
-	gulp.src([scssPath + '/*.scss',scssPath + '/*/*.scss','!' + scssPath + '/admin.scss'])
+	gulp.src([scssPath + '/*.scss',scssPath + '/*/*.scss'])
 		.pipe(compass({
 			config_file: './config.rb',
 			css: cssPath,
