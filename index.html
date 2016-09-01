@@ -462,38 +462,38 @@
                     <!-- =========
                     Start form contact section
                     ===================================-->
-                    <form >
+                    <form method="POST" action="contact-form.php">
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
-                            <label for="FullnameForm">Votre Nom</label>
-                            <input type="text" class="form-control" id="FullnameForm" placeholder="Par exemple moi, c'est Martin Villanove">
+                            <label for="FullnameForm">Votre Nom *</label>
+                            <input type="text" required name="name" class="form-control" id="FullnameForm" placeholder="Par exemple moi, c'est Martin Villanove">
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="CompanyForm">Votre entreprise</label>
-                            <input type="text" class="form-control" id="CompanyForm" placeholder="La meilleure du monde je présume">
+                            <input type="text" name="enterprise" class="form-control" id="CompanyForm" placeholder="La meilleure du monde je présume">
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group">
-                            <label for="EmailForm">Votre adresse mail</label>
-                            <input type="email" class="form-control" id="EmailForm" placeholder="Sinon, je ne pourrais pas vous contacter...">
+                            <label for="EmailForm">Votre adresse mail *</label>
+                            <input type="email" required name="email" class="form-control" id="EmailForm" placeholder="Sinon, je ne pourrais pas vous contacter...">
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="PhoneForm">Votre téléphone</label>
-                            <input type="text" class="form-control" id="PhoneForm" placeholder="Si vous voulez que je vous appelle">
+                            <input type="telephone" name="phone" class="form-control" id="PhoneForm" placeholder="Si vous voulez que je vous appelle">
                           </div>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="MesageForm">Votre Message</label>
-                        <textarea class="form-control" rows="8" id="MesageForm" placeholder="Pleins de mots doux"></textarea>
+                        <label for="MesageForm">Votre Message *</label>
+                        <textarea class="form-control" required name="message" rows="8" id="MessageForm" placeholder="Pleins de mots doux"></textarea>
                       </div>
                       <button type="submit" class="btn btn-flat btn-lg"><span class="glyphicon glyphicon-send"></span> Envoyer</button>
                     </form>
