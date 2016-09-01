@@ -114,9 +114,12 @@ function init_gmap() {
 }
 
 $(window).load(function() {
-  $('.imgWrapper img').animate({opacity: '1.0'}, 1000, function() {
-    $(this).css('filter', 'none');
-  });
+	$('.imgWrapper img').animate({opacity: '1.0'}, 1000, function() {
+		$(this).css('filter', 'none');
+	});
+	$('.download-block a').click(function(){
+		window.print();
+	});
 });
 
 
