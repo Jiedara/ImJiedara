@@ -155,6 +155,16 @@
 
                       <li class="mix dev">
                         <div class="item-portfolio">
+                          <a href="https://github.com/Jiedara/ImJiedara" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Ancien portfolio <small>Visualisation de mon ancien protfolio, utilisant un système jQuery de toile pour symboliser les projets. </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
                           <a href="http://moodyjungle.com/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
@@ -172,6 +182,10 @@
                           <div class="desc-portfolio"><h5>Lost School Dance Party (jQuery)<small>RandomGameJam, faire un jeu sur un titre tiré au hasard. Développement Javascript/jQuery sur 48H. </small></h5></div>
                         </div>
                       </li>
+
+                      <!-- ===============
+                      DESIGN
+                      ==========================-->
 
                       <li class="mix design">
                         <div class="item-portfolio">
@@ -232,12 +246,6 @@
                           <div class="desc-portfolio"><h5>FAHRENHEIT<small>Magazine complet, fait en fin de licence. Ecriture de deux articles et participation à la création du design.</small></h5></div>
                         </div>
                       </li>
-
-
-                      <!-- ===============
-                      DESIGN
-                      ==========================-->
-
 
                     </ul>
                     <!-- =========
