@@ -1327,6 +1327,10 @@ Main Section Section
   min-height: 350px;
   position: relative;
 }
+.body-content .quick-contact,
+.body-portrait .quick-contact {
+  display: none;
+}
 
 .body-content {
   padding-bottom: 40px;

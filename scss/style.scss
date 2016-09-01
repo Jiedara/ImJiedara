@@ -723,6 +723,9 @@ Main Section Section
   padding: 0 20px;
   min-height: 350px;
   position: relative;
+	.quick-contact {
+		display: none;
+	}
 }
 .body-content {
   padding-bottom: 40px;
