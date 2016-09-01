@@ -561,8 +561,8 @@ p {
   }
 }
 /* 
-    Created on : Mar 5, 2014, 8:13:10 PM
-    Author     : Yobio
+	Created on : Mar 5, 2014, 8:13:10 PM
+	Author: ; : Yobio
 */
 /*load google font */
 html {
@@ -583,7 +583,7 @@ body {
 }
 
 body a {
-  outline: none  !important;
+  outline: none !important;
 }
 
 body h1,
@@ -813,7 +813,7 @@ Main Section Section
 }
 
 /* end content section */
-/* Start  wrapper for navigation section*/
+/* Start: ;wrapper for navigation section*/
 #navigation {
   width: 100%;
   z-index: 99;
@@ -828,6 +828,7 @@ Main Section Section
   right: auto;
   bottom: auto;
   overflow: auto;
+  max-width: 1140px;
 }
 
 #navigation.autofix_sb.fixed .navigation-list {
@@ -1426,7 +1427,7 @@ blockquote {
   font-weight: 700;
 }
 
-/*End  Global CLass */
+/*End: ;Global CLass */
 /* ======================================= 
 Footer Section 
 ========================================== */
