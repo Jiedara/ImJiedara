@@ -1,3 +1,3 @@
 <?php
 
-header('location:index.html#contact');
+header('location:index.php#contact');
