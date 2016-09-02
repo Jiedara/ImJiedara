@@ -27,6 +27,110 @@
                     <ul id='portfolio-grid' class="list-unstyled grid-portfolio">
 
                       <!-- ===============
+                      DEVELOPMENT
+                      ==========================-->
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="http://webdoc.mmi-angouleme.fr/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type</small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="https://golgarud.github.io/myLocal/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les listes sous http://localhost/. Projet libre de <a href="https://github.com/Golgarud/">Golga</a> </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev design">
+                        <div class="item-portfolio">
+                          <a href="http://ccsti.imingo.net/risques_sismique/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Le Jour où la Terre tremble (jQuery)<small>Mini jeu Jquery durant ma première année d'étude, dans le cadre de mon stage au CCSTI Martinique. </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="https://github.com/Jiedara/randumburger" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Randumburger (CSS/JS)<small>Petit développement / extension, pour une icone de menu s'ouvrant avec des animations aléatoires. </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="http://www.villenavedornon.fr/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Villenave D'Ornon (WordPress)<small>Le site de la ville de villenave, wordpress avec plugins spécifiques, fait sur mesure. Avec Bulko </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="http://www.mariagebretagne.fr/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Mariage Bretagne<small>Présentation des Salons du Mariage en Bretagne. Développement spécifique, avec Backoffice complet. Avec Bulko </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="https://github.com/Jiedara/ImJiedara" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Ce portfolio (trop meta !)<small>Lien GitHub vers ce portfolio, permettant de voir le code source (scss, organisation des fichiers, ...). </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="assets/website/portfolio1" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Ancien portfolio <small>Visualisation de mon ancien protfolio, utilisant un système jQuery de toile pour symboliser les projets. </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="http://moodyjungle.com/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Moody Jungle (WordPress)<small>Site LifeStyle / Mode / Beauté, classique wordpress, installation, configuration et intégration de maquette. </small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="assets/website/lsdp" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Lost School Dance Party (jQuery)<small>RandomGameJam, faire un jeu sur un titre tiré au hasard. Développement Javascript/jQuery sur 48H. </small></h5></div>
+                        </div>
+                      </li>
+
+                      <!-- ===============
                       VIDEOS
                       ==========================-->
                       <li class="mix vid">
@@ -89,99 +193,6 @@
                         </div>
                       </li>
 
-                      <!-- ===============
-                      DEVELOPMENT
-                      ==========================-->
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="http://webdoc.mmi-angouleme.fr/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type</small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev design">
-                        <div class="item-portfolio">
-                          <a href="http://ccsti.imingo.net/risques_sismique/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Le Jour où la Terre tremble (jQuery)<small>Mini jeu Jquery durant ma première année d'étude, dans le cadre de mon stage au CCSTI Martinique. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="https://github.com/Jiedara/randumburger" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Randumburger (CSS/JS)<small>Petit développement / extension, pour une icone de menu s'ouvrant avec des animations aléatoires. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="http://www.villenavedornon.fr/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Villenave D'Ornon (WordPress)<small>Le site de la ville de villenave, wordpress avec plugins spécifiques, fait sur mesure. Avec Bulko </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="http://www.mariagebretagne.fr/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Mariage Bretagne<small>Présentation des Salons du Mariage en Bretagne. Développement spécifique, avec Backoffice complet. Avec Bulko </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="https://github.com/Jiedara/ImJiedara" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Ce portfolio (trop meta !)<small>Lien GitHub vers ce portfolio, permettant de voir le code source (scss, organisation des fichiers, ...). </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="https://github.com/Jiedara/ImJiedara" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Ancien portfolio <small>Visualisation de mon ancien protfolio, utilisant un système jQuery de toile pour symboliser les projets. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="http://moodyjungle.com/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Moody Jungle (WordPress)<small>Site LifeStyle / Mode / Beauté, classique wordpress, installation, configuration et intégration de maquette. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="assets/website/lsdp" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-code "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Lost School Dance Party (jQuery)<small>RandomGameJam, faire un jeu sur un titre tiré au hasard. Développement Javascript/jQuery sur 48H. </small></h5></div>
-                        </div>
-                      </li>
 
                       <!-- ===============
                       DESIGN
@@ -191,7 +202,7 @@
                         <div class="item-portfolio">
                           <a href="assets/images/liberte-expression.png" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="assets/images/liberte-expression.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Libertée d'expression (Photo)<small> Fausse campagne Amnetsy International pour revendiquer notre libertée d'expression. Photographie et retouche sous Photoshop. </small></h5></div>
                         </div>
@@ -201,7 +212,7 @@
                         <div class="item-portfolio">
                           <a href="assets/images/papillusion.png" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="assets/images/papillusion.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Papillusion (Vectoriel)<small> Suite d'essais avec Illustrator, création d'un petit pokémon. </small></h5></div>
                         </div>
@@ -211,7 +222,7 @@
                         <div class="item-portfolio">
                           <a href="assets/images/parasprite.png" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="assets/images/parasprite.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Parasprite (Vectoriel)<small> Suite d'essais avec Illustrator, création d'un parasprite. </small></h5></div>
                         </div>
@@ -221,7 +232,7 @@
                         <div class="item-portfolio">
                           <a href="assets/images/shibi.png" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="assets/images/shibi.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Shibi (Vectoriel)<small> AutoPortrait stylisé 'shibi' (manga). </small></h5></div>
                         </div>
@@ -231,7 +242,7 @@
                         <div class="item-portfolio">
                           <a href="assets/images/secu-route.png" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="assets/images/secu-route.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Sécurité routière (Photo)<small> Fausse campagne de sensibilisation à la sécurité routière. Photographie et montage Photoshop. </small></h5></div>
                         </div>
