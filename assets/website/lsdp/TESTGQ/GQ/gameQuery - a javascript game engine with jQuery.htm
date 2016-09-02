@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0041)http://gamequeryjs.com/documentation/api/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>gameQuery - a javascript game engine with jQuery</title>
+        <meta charset="UTF-8">
+	<meta name="google-site-verification" content="7PK5rn-zHmukHUiHDTWBwX1W0TaImOcTQ_xv1kmfU6o">
+	<meta property="fb:admins" content="676823032">
+	<meta property="og:image" content="http://gamequeryjs.com/wp-content/themes/gQth/images/logo.png">
+        <meta content="javascript, game, games, jquery, gamequery, game engine, framework, development" name="keywords">
+        <link rel="icon" href="http://gamequeryjs.com/wp-content/themes/gQth/favicon.gif" type="image/gif">
+        <link rel="stylesheet" href="./gameQuery - a javascript game engine with jQuery_files/style.css" type="text/css" media="screen">
+        <link rel="pingback" href="http://gamequeryjs.com/xmlrpc.php">
+        <link rel="image_src" href="./gameQuery - a javascript game engine with jQuery_files/logo.png"> 
+        
+            <script type="text/javascript" async="" src="./gameQuery - a javascript game engine with jQuery_files/ga.js"></script><script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.5 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-29700571-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="gameQuery » API Comments Feed" href="http://gamequeryjs.com/documentation/api/feed/">
+<script type="text/javascript" src="./gameQuery - a javascript game engine with jQuery_files/jquery.min.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://gamequeryjs.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://gamequeryjs.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Sound Wrapper API" href="http://gamequeryjs.com/documentation/sound-wrapper-api/">
+<link rel="next" title="First Tutorial" href="http://gamequeryjs.com/documentation/first-tutorial/">
+<meta name="generator" content="WordPress 3.9.1">
+<link rel="canonical" href="./gameQuery - a javascript game engine with jQuery_files/gameQuery - a javascript game engine with jQuery.htm">
+<link rel="shortlink" href="http://gamequeryjs.com/?p=136">
+    <style type="text/css"></style></head>
+    <body>
+        <div class="container_12" id="page">
+            <div class="grid_12" id="header">
+                <img alt="gameQuery" src="./gameQuery - a javascript game engine with jQuery_files/logo.png" width="177px" height="40px"><span style="font-weight: bold; margin-left: 10px; font-size: x-small; vertical-align: 60%;">javascript game development made easy</span>
+            </div>
+           	<div class="grid_12" id="menu"><div class="grid_2 alpha"><a href="http://gamequeryjs.com/">Home</a></div><div class="grid_2"><a href="http://gamequeryjs.com/download/">Download</a></div><div class="grid_2"><a href="http://gamequeryjs.com/documentation/">Documentation</a></div><div class="grid_2"><a href="http://gamequeryjs.com/demo/">Demos</a></div><div class="grid_2"><a href="http://gamequeryjs.com/tool/">Tools</a></div><div class="grid_2 omega"><a href="http://forum.gamequeryjs.com/">Forum</a></div></div>           	<div class="grid_12"><div id="apinav">
+	<h1>API Browser</h1>
+	<ul>
+		<li><a ref="#" id="apinav-all" class="active-filter">All</a></li>
+		<li><a ref="#" id="apinav-animation">Animation</a></li>
+		<li><a ref="#" id="apinav-gameelement">Game Element</a></li>
+		<li><a ref="#" id="apinav-dimension">Dimension</a></li>
+		<li><a ref="#" id="apinav-transformation">Transformation</a></li>
+		<li><a ref="#" id="apinav-mainloop">Main loop</a></li>
+		<li><a ref="#" id="apinav-control">Control</a></li>
+		<li><a ref="#" id="apinav-sound">Sound</a></li>
+		<li><a ref="#" id="apinav-collision">Collision</a></li>
+	</ul>
+</div>
+		<h1>API</h1>
+<p>You will find here a description of all the functions and objects offerd by gameQuery.</p>
+<ul>
+	<li class="doc api-animation"><a href="http://gamequeryjs.com/documentation/api/#Animation">$.gQ.Animation</a></li>
+	<li class="doc api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#CSS">CSS</a></li>
+	<li class="doc api-gameelement api-mainloop api-control"><a href="http://gamequeryjs.com/documentation/api/#playground">playground()</a></li>
+	<li class="doc api-mainloop"><a href="http://gamequeryjs.com/documentation/api/#startGame">startGame(function)</a></li>
+	<li class="doc api-mainloop"><a href="http://gamequeryjs.com/documentation/api/#pauseGame">pauseGame()</a></li>
+	<li class="doc api-mainloop"><a href="http://gamequeryjs.com/documentation/api/#resumeGame">resumeGame(function)</a></li>
+	<li class="doc api-mainloop"><a href="http://gamequeryjs.com/documentation/api/#registerCallback">registerCallback(function, rate)</a></li>
+	<li class="doc api-animation api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#addSprite">addSprite(name, options)</a></li>
+	<li class="doc api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#addGroup">addGroup(name, options)</a></li>
+	<li class="doc api-animation api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#addTilemap">addTilemap(name, tileDescription, animationList, options)</a></li>
+	<li class="doc api-animation api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#importTilemaps">importTilemaps(url, prefix, generatedElements)</a></li>
+	<li class="doc api-animation"><a href="http://gamequeryjs.com/documentation/api/#setAnimation">setAnimation(animation, callback)</a></li>
+	<li class="doc api-animation"><a href="http://gamequeryjs.com/documentation/api/#pauseAnimation">pauseAnimation()</a></li>
+	<li class="doc api-animation"><a href="http://gamequeryjs.com/documentation/api/#resumeAnimation">resumeAnimation()</a></li>
+	<li class="doc api-mainloop api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#clearScenegraph">clearScenegraph()</a></li>
+	<li class="doc api-animation api-mainloop api-gameelement"><a href="http://gamequeryjs.com/documentation/api/#clearAll">clearAll(callbacksToo)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#xyz">xyz(x, y, z, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#xy">xy(x, y, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#x">x(value, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#y">y(value, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#z">z(value, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#wh">wh(w, h, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#w">w(value, relative)</a></li>
+	<li class="doc api-dimension"><a href="http://gamequeryjs.com/documentation/api/#h">h(value, relative)</a></li>
+	<li class="doc api-gameelement api-collision"><a href="http://gamequeryjs.com/documentation/api/#collision">collision(filter)</a></li>
+	<li class="doc api-mainloop"><a href="http://gamequeryjs.com/documentation/api/#loadCallback">loadCallback(callback)</a></li>
+	<li class="doc api-sound"><a href="http://gamequeryjs.com/documentation/api/#addSound">addSound(name, url)</a></li>
+	<li class="doc api-sound"><a href="http://gamequeryjs.com/documentation/api/#playSound">playSound()</a></li>
+	<li class="doc api-sound"><a href="http://gamequeryjs.com/documentation/api/#stopSound">stopSound()</a></li>
+	<li class="doc api-sound"><a href="http://gamequeryjs.com/documentation/api/#pauseSound">pauseSound()</a></li>
+	<li class="doc api-sound"><a href="http://gamequeryjs.com/documentation/api/#muteSound">muteSound(muted)</a></li>
+	<li class="doc api-transformation"><a href="http://gamequeryjs.com/documentation/api/#roate">roate(angle, relative)</a></li>
+	<li class="doc api-transformation"><a href="http://gamequeryjs.com/documentation/api/#scale">scale(ratio, relative)</a></li>
+	<li class="doc api-transformation"><a href="http://gamequeryjs.com/documentation/api/#flipv">flipv(value)</a></li>
+	<li class="doc api-transformation"><a href="http://gamequeryjs.com/documentation/api/#fliph">fliph(value)</a></li>
+</ul>
+<h1>Functions and Objects</h1>
+
+<div id="Animation" class="doc api-animation"><a name="Animation"></a>
+	<h4>$.gQ.Animation</h4>
+	<p>gameQuery allows you to declare animations. Animations are made of one image with a succession of frames just like in a <a href="http://www.alistapart.com/articles/sprites" onclick="javascript:_gaq.push([&#39;_trackEvent&#39;,&#39;outbound-article&#39;,&#39;http://www.alistapart.com&#39;]);">css sprite</a>. An animation in itself doesn’t exist until it’s associated with a sprite. Those are the attributes an animation can have:</p>
+	<ul>
+		<li><strong>imageURL:</strong> the URL of the image</li>
+		<li><strong>numberOfFrame:</strong> the total number of frame in the animation (for example for a 10×10 sprite with 15 frames your image will be 10×150 or 150×10)</li>
+		<li><strong>delta:</strong> the width or height (depending on the type) of one frame</li>
+		<li><strong>rate:</strong> the number of milliseconds between two frame</li>
+		<li><strong>type:</strong>the type of animation, it’s a binary OR of the following value:
+		<ul>
+			<li>$.gQ.ANIMATION_VERTICAL for vertical, the various frames are stacked verticaly</li>
+			<li>$.gQ.ANIMATION_HORIZONTAL for horizontal, the various frames are layed horizontaly</li>
+			<li>$.gQ.ANIMATION_ONCE if you don’t want the animation to loop</li>
+			<li>$.gQ.ANIMATION_CALLBACK a function executed at the end of each animation cycle</li>
+			<li>$.gQ.ANIMATION_MULTI if your image file contain more than one animation side by side</li>
+			<li>$.gQ.ANIMATION_PINGPONG after the last frame, instead of starting again with the first one the animation will reverse.</li>
+		</ul></li>
+		<li><strong>distance:</strong> the distance between two image when using multi-animations</li>
+		<li><strong>offsetx:</strong> the offset along the x-axis for the position of the first frame in the image (for use with sprite-sheets)</li>
+		<li><strong>offsety:</strong> the offset along the y-axis for the position of the first frame in the image (for use with sprite-sheets)</li>
+	</ul>
+	<p>example:</p>
+<div class="example">var myAnimation = new $.gQ.Animation({ imageURL: “./myAnimation.png”,
+	numberOfFrame: 10,
+	delta: 60,
+	rate: 90,
+	type: $.gQ.ANIMATION_VERTICAL | $.gQ.ANIMATION_ONCE});</div>
+</div>
+
+<div id="CSS" class="doc api-animation"><a name="CSS"></a>
+	<h4>CSS Classes</h4>
+	<p>The CSS classes and ids used by gameQuery are now namespaced with gQ_to avoid interferences with classes set by your game or other plug-ins. You can access them through a constant in the gameQuery object so that should they change for some reason you won’t have the change the code of your game. Most of the time you will use them only when you write a filter for the collision() function.</p>
+	<ul>
+		<li><strong>$.gQ.spriteCssClass</strong> the CSS class associated with every sprites (replaces sprite)</li>
+		<li><strong>$.gQ.groupCssClass</strong> the CSS class associated with every groups (replaces group)</li>
+		<li><strong>$.gQ.tilemapCssClass</strong> the CSS class associated with every tile-maps (replaces tileSet)</li>
+		<li><strong>$.gQ.tileCssClass</strong> the CSS class associated with every tiles (sort of replaces active)</li>
+		<li><strong>$.gQ.tileTypePrefix</strong> the prefix of the CSS class used to make the type of each tiles. A tile with the animation number 3 will have the class $.gameQuery.tileTypePrefix + 3 (replaces tileType_)</li>
+		<li><strong>$.gQ.tileIdPrefix</strong> the prefix of the id for each tiles. A tile a the 4th line and 7th column in the tile-map array will have the id $.gameQuery.tileIdPrefix + 4 + “_” + 7 (replaces tile_)</li>
+	</ul>
+</div>
+
+<div id="playground" class="doc api-gameelement api-mainloop api-control"><a name="playground"></a>
+	<h4>playground(options)</h4>
+	<p>This function defines the div to be used to display the game. All the objects to be added to the DOM by gameQuery will be added to this element or on of its child. If more than one element results from the expression only the first will be used.</p>
+	
+	<p>Options may contain:</p>
+	<ul>
+		<li><strong>height:</strong> the height of the game area (320 by default)</li>
+		<li><strong>width:</strong> the width of the game area (480 by default)</li>
+		<li><strong>refreshRate:</strong> the refresh rate in milliseconds(30 by default)</li>
+		<li><strong>keyTracker:</strong> if true enabled the key tracker</li>
+		<li><strong>mouseTracker:</strong> if true enabled the mouse tracker</li>
+	</ul>
+	
+	<p>If the key tracker is enabled you can check at anymoment the state of every key by looking into the array $.gQ.keyTracker, the indexes of this arrays are keycodes. If the mouse tracker is enabled you can check the state of the mouse at anytime by looking into the object $.gQ.mouseTracker where x and y contain the position of the mouse and 1, 2 and 3 a boolean value where true means that the first, second or thrid button is pressed</p>
+	
+	<p>example:</p>
+<div class="example">$(“#someId”).<strong>playground</strong>({refreshRate: 60});</div>
+
+	<h4>playground()</h4>
+	<p>Called without any parameters the playground function returns the current playground.</p>
+</div>
+
+<div id="startGame" class="doc api-mainloop"><a name="startGame"></a>
+	<h4>startGame(function)</h4>
+	<p>This function will prepare the game to be started by pre-loading the resources and will start the main loop. If a function is given as a parameter it will be called once everything is loaded.</p>
+	
+	<p>example:</p>
+<div class="example">$(“#startbutton”).click(function(){
+	$.playground().<strong>startGame</strong>(function(){
+		$(“#welcomeScreen”).remove();
+	});
+})</div>
+</div>
+	
+<div id="pauseGame" class="doc api-mainloop"><a name="pauseGame"></a>
+	<h4>pauseGame()</h4>
+	<p>This function pauses the game. Animations are stopped, all elements (sprites, groups and tile-maps) are hidden and callbacks <strong>WON’T</strong> be called anymore.</p>
+</div>
+
+<div id="resumeGame" class="doc api-mainloop"><a name="resumeGame"></a>
+	<h4>resumeGame(function)</h4>
+	<p>This function resumes the game. Animations stats again, all elements are made visible again and callbacks start firing again. If any new animations or sound have been added they will be loaded and once done the function callback passed as argument will be called. If a loading callback has been defined at some point it will be called during the loading of the new element. Please note that you have to call this function outside one of gameQuery’s defined callbacks since they won’t be executed during a paused game, in a event handler for example.</p>
+</div>
+
+<div id="registerCallback" class="doc api-mainloop"><a name="registerCallback"></a>
+	<h4>registerCallback(function, rate)</h4>
+	<p>This function registers a function to be called at a regular interval. The rate is the number of milliseconds between two successive calls to the function given as argument.</p>
+
+	<p>If the function passed as an argument returns a integer it will change the interval to which to function is called. If the function returns the boolean ‘true’ then the callback will not be called anymore.</p>
+
+<div class="example">$.playground().registerCallback(function(){
+	/* do something here */
+},30)</div>
+</div>
+
+<div id="addSprite" class="doc api-animation api-gameelement"><a name="addSprite"></a>
+	<h4>addSprite(name, options)</h4>
+	<p>This function adds a sprite to the current selected element. This element is expected to be the playground, a group or another sprite. Any sprite created this way will automatically animate itself. The sprite will stay hidden as long as the start() function hasn’t been called.</p>
+	
+	<p>Options may include:</p>
+	<ul>
+		<li><strong>animation:</strong> an animation</li>
+		<li><strong>height:</strong> the height of the sprite (32 by default)</li>
+		<li><strong>width:</strong> the width of the sprite (32 by default)</li>
+		<li><strong>posx:</strong> the position on the x axis (0 by default)</li>
+		<li><strong>posy:</strong> the position on the y axis(0 by default)</li>
+		<li><strong>callback:</strong> a callback that will be called at the end of the animation. (Only if the animation type is $.gQ.CALLBACK)</li>
+	</ul>
+	<p>example:</p>
+<div class="example">$(“#playground”).playground({height: playgroundHeight, width: playgroundWidth})
+	.<strong>addSprite</strong>(“sprite1″,{animation: animation1});</div>
+</div>
+
+<div id="addGroup" class="doc api-gameelement"><a name="addGroup"></a>
+<h4>addGroup(name, options)</h4>
+	<p>This function behaves almost in the same way as the addSprite one but it creates a transparent sprite.</p>
+	
+	<p>Options may include:</p>
+	<ul>
+		<li><strong>overflow:</strong> visibility of elements outside of the group (visible by default)</li>
+		<li><strong>height:</strong> the height of the group (32 by default)</li>
+		<li><strong>width:</strong> the width of the group (32 by default)</li>
+		<li><strong>posx:</strong> the position on the x axis (0 by default)</li>
+		<li><strong>posy:</strong> the position on the y axis(0 by default)</li>
+	</ul>
+	
+	<p>example:</p>
+<div class="example">$(“#playground”).playground({height: playgroundHeight, width: playgroundWidth})
+	.<strong>addGroup</strong>(“group1″,{overflow: “visible”})
+		.addSprite(“sprite1″,{animation: animation1})
+		.addSprite(“sprite2″,{animation: animation1});</div>
+</div>
+
+<div id="addTilemap" class="doc api-animation api-gameelement"><a name="addTilemap"></a>
+	<h4>addTilemap(name, tileDescription, animationList, options)</h4>
+	<p>This function creates a tilemap using the animations from animationList and arranging them according to the tileDescription. animationList can be an array of animation or a multi-animation. tileDescription can be an array of integer where the value of each point is the index of the animation in the animationList (or the multi-animaiton index) or a function taking as parameter a x and y index and returning the index of the animation for this point. Tiles created by this method are marked by the “tileType_x” class where x is the animation index (this may be useful for colision). Remark: this doesn’t work if the tilemap is transformed (rotation or scalling)</p>
+	
+	<p>Options may include:</p>
+	<ul>
+		<li><strong>sizex:</strong> the number of column of tiles</li>
+		<li><strong>sizey:</strong> the number of row of tiles</li>
+		<li><strong>height:</strong> the height of a unique tile</li>
+		<li><strong>width:</strong> the width of a unique tile</li>
+		<li><strong>posx:</strong> the position on the x axis (0 by default)</li>
+		<li><strong>posy:</strong> the position on the y axis(0 by default)</li>
+		<li><strong>buffer:</strong> the size of the buffer (1 by default)</li>
+	</ul>
+	
+	<p>The buffer option defines the number of tiles around the visible ones that are created in advance. If you find that moving tiles around is to slow you may want to play with this value . One possible scenario is when you have a player jumping around, if you now that it will move up a little and them down the same amount most of the time you may want to make sure that the buffer is big enough so that the top most point of the jump doesn’t forces the tile-map to create new tiles. Keep in mind that the bigger the buffer the slower it is to add new tiles (because the buffer has to be re-created to)</p>
+		
+	<p>example:</p>
+<div class="example">var multiAnimation = new $.gQ.Animation({imageURL: “m.png”,
+	type: $.gQ.ANIMATION_HORIZONTAL | $.gQ.ANIMATION_MULTI,
+	numberOfFrame: 3,
+	delta: 10,
+	distance: 10,
+	rate: 300});
+$.playground().addTilemap(“myTilemap”, tileDef, multiAnimation,
+	{width: 10,
+	height: 10,
+	sizex: 3,
+	sizey: 3,
+	posx: 0});</div>
+</div>
+
+<div id="importTilemaps" class="doc api-animation api-gameelement"><a name="importTilemaps"></a>
+	<h4>importTilemaps(url, prefix, generatedElements)</h4>
+	<p>This function imports a JSON file generated by <a href="http://www.mapeditor.org/" onclick="javascript:_gaq.push([&#39;_trackEvent&#39;,&#39;outbound-article&#39;,&#39;http://www.mapeditor.org&#39;]);" target="_blank">Tiled</a>. All the created tilemaps will be directly under the currently selected element. Their name will be made of the provided prefix followed by a number starting at 0.</p>
+	<p>Only layer of type “tilelayer” are supported for now. Only one single tileset per layer is supported.</p>
+	<p>After the call to this function the second argument will hold two new arrays:</p><ul>
+		<li>tiles: an arrays of tilemaps wraped in jQuery.</li>
+		<li>animations: an arrays of animations</li>
+	</ul>
+</div>
+
+<div id="setAnimation" class="doc api-animation"><a name="setAnimation"></a>
+	<h4>setAnimation(animation, callback)</h4>
+	<p>This function allow to change the animation of the element on which it’s called. This element is expected to be a sprite. Callback is a function to call at the end of each animation cycle. It’s an optional parameter that will only be used if the animation is of type $.gQ.CALLBACK. Called whitout any parameter this function remove the animation from the selected sprite.</p>
+	
+	<p>If the currently assigned animation is a mutli-animations the <code>animation</code> argument can be the index of the animation you want to choose amongst one of the multi-animations.</p>
+</div>
+
+<div id="pauseAnimation" class="doc api-animation"><a name="pauseAnimation"></a> 
+	<h4>pauseAnimation()</h4>
+	<p>Stops the animation of the selected element at the current frame. If the animation has one frame or is already paused this has not effect.</p>
+</div>
+
+<div id="resumeAnimation" class="doc api-animation"><a name="resumeAnimation"></a>
+	<h4>resumeAnimation()</h4>
+	<p>Resume the animation of the selected element if it was paused. If the animation has not been paused this has no effect.</p>
+</div>
+
+<div id="clearScenegraph" class="doc api-mainloop api-gameelement"><a name="clearScenegraph"></a>
+	<h4>clearScenegraph()</h4>
+	<p>Will clear all sprites, groups and tile-maps. Please make sure that after a call to this your callbacks don’t try to access to them. It is recommended to call this function when the game is paused with pauseGame().</p>
+</div>
+
+<div id="clearAll" class="doc api-animation api-mainloop api-gameelement"><a name="clearAll"></a>
+	<h4>clearAll(callbacksToo) </h4>
+	<p>Will clear all sprites, groups and tile-maps but animations and sounds too. If you passe true as an argument all callbacks will be removed too. It is recommended to call this function when the game is paused with pauseGame().</p>
+</div>
+
+<div id="xyz" class="doc api-dimension"><a name="xyz"></a>
+	<h4>xyz(x, y, z, relative)</h4>
+	<p>Sets the coordinates of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current position. If called without arguments, the function will return an object {x: x-coordinate, y: y-coordinate, z: z-coordinate}.</p>
+</div>
+
+<div id="xy" class="doc api-dimension"><a name="xy"></a>
+	<h4>xy(x, y, relative)</h4>
+	<p>Sets the coordinates of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current position. If called without arguments, the function will return an object {x: x-coordinate, y: y-coordinate, z: z-coordinate}. The z value is present in the return object because it comes at no cost.</p>
+</div>
+
+<div id="x" class="doc api-dimension"><a name="x"></a>
+	<h4>x(value, relative)</h4>
+	<p>Sets the x-coordinates of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current position. If called without arguments, the function will return the value of the x-coordinate. (The x-coordinate corresponds to the CSS “left” property)</p>
+</div>
+
+<div id="y" class="doc api-dimension"><a name="y"></a>
+	<h4>y(value, relative)</h4>
+	<p>Sets the y-coordinates of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current position. If called without arguments, the function will return the value of the y-coordinate. (The x-coordinate corresponds to the CSS “top” property)</p>
+</div>
+
+<div id="z" class="doc api-dimension"><a name="z"></a>
+	<h4>z(value, relative)</h4>
+	<p>Sets the z-coordinates of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current position. If called without arguments, the function will return the value of the z-coordinate. (The x-coordinate corresponds to the CSS “z-index” property)</p>
+</div>
+
+<div id="wh" class="doc api-dimension"><a name="wh"></a>
+	<h4>wh(w, h, relative)</h4>
+	<p>Sets the width and height of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current dimensions. If called without arguments, the function will return an object {w: width, h: height}.</p>
+</div>
+
+<div id="w" class="doc api-dimension"><a name="w"></a>
+	<h4>w(value, relative)</h4>
+	<p>Sets the width of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current dimensions. If called without arguments, the function will return the width.</p>
+</div>
+
+<div id="h" class="doc api-dimension"><a name="h"></a>
+	<h4>h(value, relative)</h4>
+	<p>Sets the height of the sprite/group/tilemap. If relative is set to true then the arguments are increments to the current dimensions. If called without arguments, the function will return the height.</p>
+</div>
+
+<div id="collision" class="doc api-gameelement api-collision"><a name="collision"></a>
+	<h4>collision(filter, override)</h4>
+	<p>This method returns the list of elements collisioning with the selected one but only those that match with the filter given as parameter. It takes two optional arguments (their order is not important). The filter is a string filtering element used to detect collision, it should contain all the elements the function should search collision into. For example if you look for collision with element of the class ‘foo’ that may be contained in a group you will use the filter <code>".group,.foo"</code>.</p>
+	<p>You may want watch the following <a href="https://vimeo.com/64073558" onclick="javascript:_gaq.push([&#39;_trackEvent&#39;,&#39;outbound-article&#39;,&#39;http://vimeo.com&#39;]);" target="_blank">video tutorial</a> I did to explain how this all works or read the <a href="http://forum.gamequeryjs.com/discussion/13/problem-with-collisions" target="_blank">following discussion</a> on the forum. The override is an object containing one or more of the following properties: x and y to override the element position, w and h to override the width and height.</p>
+	
+	<p>example:</p>
+<div class="example">$(“#spaceship”).<strong>collision</strong>(“.missiles”).each(function(){
+	killspaceship();
+	explodemissil(this);
+});</div>
+</div>
+
+<div id="loadCallback" class="doc api-mainloop"><a name="loadCallback"></a>
+	<h4>loadCallback(callback)</h4>
+	<p>This function sets a callback to be called with the current loading progress (in percent) as argument.</p>
+</div>
+
+<div id="addSound" class="doc api-sound"><a name="addSound"></a>
+	<h4>addSound(sound, add) <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">You need to include a <a title="Sound Wrapper API" href="http://gamequeryjs.com/documentation/sound-wrapper-api/">sound wrapper</a> for this function to work</span></h4>
+	<p>This function adds the sound to the current object. If a sound is already associated with this object it will be replaced unless the add argument is set to true. In this case both sounds will be associated with the object.</p>
+</div>
+
+<div id="playSound" class="doc api-sound"><a name="playSound"></a>
+	<h4>playSound() <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">You need to include a <a title="Sound Wrapper API" href="http://gamequeryjs.com/documentation/sound-wrapper-api/">sound wrapper</a> for this function to work</span></h4>
+	<p>This function plays the sound or sounds associated with the current object.</p>
+</div>
+
+<div id="stopSound" class="doc api-sound"><a name="stopSound"></a>
+	<h4>stopSound() <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">You need to include a <a title="Sound Wrapper API" href="http://gamequeryjs.com/documentation/sound-wrapper-api/">sound wrapper</a> for this function to work</span></h4>
+	<p>This function stops the sound or sounds associated with the current object.</p>
+</div>
+
+<div id="pauseSound" class="doc api-sound"><a name="pauseSound"></a>
+	<h4>pauseSound() <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">You need to include a <a title="Sound Wrapper API" href="http://gamequeryjs.com/documentation/sound-wrapper-api/">sound wrapper</a> for this function to work</span></h4>
+	<p>This function pauses the sound or sounds associated with the current object.</p>
+</div>
+
+<div id="muteSound" class="doc api-sound"><a name="muteSound"></a>
+	<h4>muteSound(mute) <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">You need to include a <a title="Sound Wrapper API" href="http://gamequeryjs.com/documentation/sound-wrapper-api/">sound wrapper</a> for this function to work</span></h4>
+	<p>This function mutes the sound or sounds associated with the current object or mute all sounds if no obect is selected. If you pass false to the function it unmutes instead of mutes.</p>
+</div>
+
+<div id="rotate" class="doc api-transformation"><a name="roate"></a>
+	<h4>roate(angle, relative) <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">Supported browser: firefox &gt; 3.5, safari &gt; 3.1, chrome, internet explorer &gt; 5.5</span></h4>
+	<p>This function rotates the selected element(s) clock-wise. The first argument is an angle degree. The second argument is a flag that define if the rotation is relative or not (false by default). If sets to true the first argument is added to the current rotation.</p>
+</div>
+
+<div id="scale" class="doc api-transformation"><a name="scale"></a>
+	<h4>scale(ratio, relative) <img src="./gameQuery - a javascript game engine with jQuery_files/icon_alert.gif" alt="warning"> <span class="red more">Supported browser: firefox &gt; 3.5, safari &gt; 3.1, chrome, internet explorer &gt; 5.5</span></h4>
+	<p>This function change the scale of the selected element(s). The first argument is a ratio: 1.0 = original size, 0.5 = half the original size, 2.0 = twice the original size. The second argument is a flag that define if the scaling is relative or not (false by default). If sets to true the  current scaling is multiplied by the provided value (and not added like for the other transformation).</p>
+</div>
+
+<div id="flipv" class="doc api-transformation"><a name="flipv"></a>
+	<h4>flipv(value)</h4>
+	<p>This function flips the sprite vertically if the argument is true or if no argument is specified and the sprite is currently not flipped vertically. Otherwise it will return the sprite to it’s normal state.</p>
+</div>
+
+<div id="fliph" class="doc api-transformation"><a name="fliph"></a>
+	<h4>fliph(value)</h4>
+	<p>This function flips the sprite horizontally if the argument is true or if no argument is specified and the sprite is currently not flipped horizontally. Otherwise it will return the sprite to it’s normal state.</p>
+</div>
+<script>
+	$(function(){
+		$("#apinav-all").click(function(){
+			$(".doc").show();
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-all").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-animation").click(function(){
+			$(".doc").hide();
+			$(".api-animation").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-animation").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-gameelement").click(function(){
+			$(".doc").hide();
+			$(".api-gameelement").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-gameelement").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-dimension").click(function(){
+			$(".doc").hide();
+			$(".api-dimension").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-dimension").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-transformation").click(function(){
+			$(".doc").hide();
+			$(".api-transformation").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-transformation").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-mainloop").click(function(){
+			$(".doc").hide();
+			$(".api-mainloop").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-mainloop").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-control").click(function(){
+			$(".doc").hide();
+			$(".api-control").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-control").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-sound").click(function(){
+			$(".doc").hide();
+			$(".api-sound").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-sound").addClass("active-filter");
+			return false;
+		});
+		$("#apinav-collision").click(function(){
+			$(".doc").hide();
+			$(".api-collision").show()
+			$("#apinav a").removeClass("active-filter");
+			$("#apinav-collision").addClass("active-filter");
+			return false;
+		});
+	});
+</script>
+            </div>
+            <div class="grid_12" id="footer">
+                <p>
+                    This content of this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/ch/">Creative Commons Attribution-Share Alike 2.5 license</a>. All the code you will find is under the <a href="http://gamequeryjs.com/MIT-LICENSE.txt">MIT license</a>.<br>
+                    This website run on <a href="http://wordpress.org/">Wordpress</a> and is build upon the <a href="http://960.gs/">960 Grid System</a>, uses some icons from <a href="http://www.famfamfam.com/">famfamfam</a> and the <a href="http://jquery.com/">jQuery</a> javascript library.
+                </p>
+            </div>
+        </div>
+<a href="http://github.com/onaluf/gameQuery"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./gameQuery - a javascript game engine with jQuery_files/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub"></a>
+           
+</body></html>

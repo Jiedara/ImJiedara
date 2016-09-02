@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+    display:block;
+}
+body{
+    line-height:1;
+    overflow:hidden;
+}
+ol, ul{
+    list-style:none;
+}
+blockquote, q{
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after{
+    content:'';
+    content:none;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/*---------------------Fin du reset-------------------*/
+/* ************************************************** */
+@font-face {
+    font-family : "OratorStd";
+    src:url('font/OratorStd.otf');
+}
+
+#game {
+    position:relative!important;
+    width:900px;
+    height:600px;
+    margin:0 auto;
+    margin-top:3%;
+}
+#getgame {
+    position:relative!important;
+    width:900px;
+    height:600px;
+    margin:0 auto;
+    background-image:url(../img/background.png);
+    margin-top:3%;
+}
+#getgame button {
+    font-size:40px;
+    position:absolute;
+    width:200px;
+    height:100px;
+    left:600px;
+    bottom:480px;
+}
+#getgame button:hover {
+    cursor:pointer;
+}
+#fightgame {
+    position:relative!important;
+    width:900px;
+    height:600px;
+    margin:0 auto;
+    font-family:OratorStd;
+}
+
+#loadingBar {
+    text-align:center;
+    line-height:100px;
+    font-size:35px;
+    height:100px;
+    margin-top:200px;
+    background-color:red;
+}
+
+.touche {
+    position:absolute;
+    width:75px;
+    height:75px;
+    background-color:lightgrey;
+    border:2px solid grey;
+    border-radius:5px;
+
+}
+
+#toucheleft {
+    right:-720px;
+    bottom:-600px;
+    background-image:url('../img/left.png');
+}
+
+#toucheright {
+    right:-900px;
+    bottom:-600px;
+    background-image:url('../img/right.png');
+}
+
+#toucheup {
+    right:-810px;
+    bottom:-510px;
+    background-image:url('../img/up.png');
+}
+
+#touchedown {
+    right:-810px;
+    bottom:-600px;
+    background-image:url('../img/down.png');
+}
+#win {
+    position:absolute;
+    width:125px;
+    height:50px;
+    font-family:OratorStd;
+    font-size:25px;
+    right:-950px;
+    bottom:-510px;
+
+}
+#fightscore {
+    font-family:OratorStd;
+    font-size:25px;
+    position:absolute;
+    width:550px;
+    height:50px;
+    right:-650px;
+    top:0px;
+    color:white;
+    line-height:10px;
+    padding:20px;
+    padding-left:40px;
+    background-image:url('../img/score.png');
+    background-size:50% 100%;
+    background-repeat:no-repeat;
+}
+#combo {
+    position:absolute;
+    text-align:center;
+    font-size:50px;
+    width:300px;
+    height:300px;
+    border-radius:20px;
+    right:-575px;
+    bottom:-450px;
+    background-image:url('../img/combo.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#dialog {
+    opacity:0.8;
+    position:absolute;
+    bottom:-40px;
+    width:900px;
+    height:107px;
+    padding:20px;
+    background-image:url('../img/txt.png');
+    font-family:OratorStd;
+    font-size: 20px;
+
+}
+#arbref8 {
+    z-index:-500;
+}
+#arbref6 {
+    z-index:-500;
+}
+#3arbref6 {
+    z-index:-500;
+}
+
+#ecole {
+    z-index:10;
+}
+#2arbref14 {
+    z-index:500!important;
+}#panneau {
+    z-index:500!important;
+}
+#2arbref4 {
+    z-index:-300;
+}
+#arbref2-2,#arbref2 {
+    z-index:-300;
+}
+#badguy {
+    z-index:0;
+}
+.little {
+    position:absolute;
+    top:-25px;
+    right:45px;
+    font-size:15px;
+    color:black;
+    background-color:rgba(255,255,255,0.8);
+    padding:5px;
+    border-radius:10px;
+
+}
+#enigma li {
+    display:inline-block;
+    margin-left:150px;
+    margin-top:3px;
+    border-radius:2px;
+    list-style-type: square!important;
+}
+#selected {
+    background-color:rgba(145,177,242,0.8);
+}
+#continue {
+    background-image:url('../img/tobeasuivre.png');
+    position:absolute;
+    bottom:-550px;
+    right:-880px;
+    width:657px;
+    height:93px;
+}
