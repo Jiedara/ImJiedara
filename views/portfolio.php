@@ -32,7 +32,7 @@
 
                       <li class="mix dev">
                         <div class="item-portfolio">
-                          <a href="http://webdoc.mmi-angouleme.fr/" target="_blank" class="preview-portfolio">
+                          <a href="assets/pdf/formation-laravel.pdf" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-file-pdf-o "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
