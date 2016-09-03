@@ -59,12 +59,12 @@
                         <div class="col-md-6">
                           <div class="form-group">
                             <label for="PhoneForm">Votre téléphone</label>
-                            <input type="telephone" name="phone" class="form-control" id="PhoneForm" placeholder="Si vous voulez que je vous appelle">
+                            <input type="tel" name="phone" class="form-control" id="PhoneForm" placeholder="Si vous voulez que je vous appelle">
                           </div>
                         </div>
                       </div>
                       <div class="form-group">
-                        <label for="MesageForm">Votre Message *</label>
+                        <label for="MessageForm">Votre Message *</label>
                         <textarea class="form-control" required name="message" rows="8" id="MessageForm" placeholder="Pleins de mots doux"></textarea>
                       </div>
                       <button type="submit" class="btn btn-flat btn-lg"><span class="glyphicon glyphicon-send"></span> Envoyer</button>
