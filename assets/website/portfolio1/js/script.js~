@@ -1,0 +1,31 @@
+$(document).ready(function() {
+/*----INIT----*/
+var menuindex=10;
+gettruemenu(10);
+
+
+/*--on gere les différent clic--*/
+$('#menu li').click(function(){
+menuindex = $(this).index();
+gettruemenu($(this).index());
+});
+$('#jiedara').click(function(){
+menuindex = 10;
+gettruemenu(10);
+});
+
+/*----------------*/
+
+/*----On reset tout les cloud----*/
+function gettruemenu(clickindex) {
+$('#menu li').removeClass('active');
+console.log(menuindex);
+/*--On applique une class particulière au bon menu---*/
+$('#menu li').eq(menuindex).addClass('active');
+};
+
+/*--On lance les animations particulière à chaque menu--*/
+if (menuindex === 0 ) {
+$('#thunder').css({"visibility":'visible'});
+}
+});

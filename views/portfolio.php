@@ -12,9 +12,9 @@
                     <div class="text-center">
                       <ul class="control-profolio list-inline">
                         <li class="filter active" data-filter="all">Tout</li>
-                        <li class="filter" data-filter="design">Design</li>
                         <li class="filter" data-filter="dev">Développement</li>
                         <li class="filter" data-filter="vid">AudioVisuel</li>
+                        <li class="filter" data-filter="design">Design</li>
                       </ul>
                     </div>
                     <!-- =========
@@ -33,10 +33,20 @@
                       <li class="mix dev">
                         <div class="item-portfolio">
                           <a href="http://webdoc.mmi-angouleme.fr/" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-file-pdf-o "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5>Formation Laravel<small>Document crée chez Bulko pour former les autres développeurs de l'agence au framework PHP Laravel.</small></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="http://webdoc.mmi-angouleme.fr/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type</small></h5></div>
+                          <div class="desc-portfolio"><h5>Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type.</small></h5></div>
                         </div>
                       </li>
 
@@ -46,7 +56,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les listes sous http://localhost/. Projet libre de <a href="https://github.com/Golgarud/">Golga</a> </small></h5></div>
+                          <div class="desc-portfolio"><h5>MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les listes sous http://localhost/. Projet libre de <a href="https://github.com/Golgarud/">Golga</a>. </small></h5></div>
                         </div>
                       </li>
 
@@ -149,7 +159,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le Dormeur Du Val <small>Illustration AudioVisuelle du poème d'Arthur Rimbaud</small></h5></div>
+                          <div class="desc-portfolio"><h5>Le Dormeur Du Val <small>Illustration AudioVisuelle du poème d'Arthur Rimbaud.</small></h5></div>
                         </div>
                       </li>
 
@@ -159,7 +169,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le guide des Internet <small>Projet de fin d'étude, WebDocumentaire sur la culture du web</small></h5></div>
+                          <div class="desc-portfolio"><h5>Le guide des Internet <small>Projet de fin d'étude, WebDocumentaire sur la culture du web.</small></h5></div>
                         </div>
                       </li>
 
@@ -169,7 +179,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>StopMorphing <small>Premier Court Métrage pour le concours 24h/24s, sur le thème de la Métamorphose</small></h5></div>
+                          <div class="desc-portfolio"><h5>StopMorphing <small>Premier Court Métrage pour le concours 24h/24s, sur le thème de la Métamorphose.</small></h5></div>
                         </div>
                       </li>
 
@@ -179,7 +189,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>La Petite Illusion (CSS) <small>Second Court Métrage pour le concours 24h/24s, sur le thème de l'Illusion <br> Entièrement réalisé avec du CSS et jQuery</small></h5></div>
+                          <div class="desc-portfolio"><h5>La Petite Illusion (CSS) <small>Second Court Métrage pour le concours 24h/24s, sur le thème de l'Illusion <br> Entièrement réalisé avec du CSS et jQuery.</small></h5></div>
                         </div>
                       </li>
 
@@ -189,7 +199,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le Lit De Berty <small>Dernier Court Métrage pour le concours 24h/24s, sur le thème de la Liberté</small></h5></div>
+                          <div class="desc-portfolio"><h5>Le Lit De Berty <small>Dernier Court Métrage pour le concours 24h/24s, sur le thème de la Liberté.</small></h5></div>
                         </div>
                       </li>
 

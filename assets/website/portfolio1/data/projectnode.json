@@ -1,0 +1,366 @@
+{
+  "nodes": [
+    {
+      "id": "video",
+      "label": "Vidéos",
+      "x": -2,
+      "y": -1,
+      "size": 10
+    },{
+      "id": "video_guideinternet",
+      "label": "Le Guide Des Internet",
+      "href": "https://vimeo.com/120504993",
+      "x": -2.3,
+      "y": -0.5,
+      "size": 3
+    },{
+      "id": "video_stopmorphing",
+      "label": "StopMorphing",
+      "href": "https://www.youtube.com/watch?v=-zE4y_aB1zg",
+      "x": -1.4,
+      "y": -1.4,
+      "size": 3
+    },{
+      "id": "video_berty",
+      "label": "Le Lit de Berty",
+      "href": "https://www.youtube.com/watch?v=uTnajk9OT-4",
+      "x": -0.7,
+      "y": -1.5,
+      "size": 3
+    },{
+      "id": "video_rimbaud",
+      "label": "Le dormeur du Val",
+      "href": "https://www.youtube.com/watch?v=rKIwacjPVrE",
+      "x": -2.8,
+      "y": -1.4,
+      "size": 3
+    },{
+      "id": "video_carrey",
+      "label": " Bande Annonce : \"Tu veux ma photo\" ?",
+      "href": "https://www.youtube.com/watch?v=2MNCUDoxmUQ",
+      "x": -2.1,
+      "y": -1.5,
+      "size": 3
+    },{
+      "id": "video_TAIS",
+      "label": "Présentation TAIS",
+      "href": "https://www.youtube.com/watch?v=A-A_AVq8EbA",
+      "x": -3,
+      "y": -0.8,
+      "size": 3
+    },{
+      "id": "video_lapinou",
+      "label": "La Petite Illusion",
+      "href": "https://www.youtube.com/watch?v=rcWffYFqxe8",
+      "x": -0.7,
+      "y": -1.2,
+      "size": 3
+    },
+    {
+      "id": "dev",
+      "label": "Développement",
+      "x": 0.2,
+      "y": -0.5,
+      "size": 10
+    },
+    {
+      "id": "dev_seisme",
+      "label": "Serious Game - Séisme",
+      "href": "http://mvillanove.mmi-angouleme.fr/seriousgame-seisme/",
+      "x": -0.2,
+      "y": 0.3,
+      "size": 3
+    },
+    {
+      "id": "dev_schooldance",
+      "label": "Lost School Dance Party",
+      "href": "http://mvillanove.mmi-angouleme.fr/LostSchoolDanceParty/",
+      "x": 0.5,
+      "y": -0.9,
+      "size": 3
+    },
+    {
+      "id": "dev_vraifaux",
+      "label": "Serious Game - Les Quizzs",
+      "href": "http://mvillanove.mmi-angouleme.fr/Vrai-Faux/",
+      "x": 0.1,
+      "y": 0.1,
+      "size": 3
+    },
+    {
+      "id": "dev_videoapp",
+      "label": "VideoApp - L'appli pour vos playlists",
+      "href": "http://mvillanove.mmi-angouleme.fr/VideoApp/",
+      "x": 0.8,
+      "y": -0.2,
+      "size": 3
+    },
+    {
+      "id": "dev_filmo",
+      "label": "Filmothèque - Vos films à leur place (V0.2)",
+      "href": "http://mvillanove.mmi-angouleme.fr/filmo/",
+      "x": 0.2,
+      "y": -1.2,
+      "size": 3
+    },
+    {
+      "id": "dev_codepen",
+      "label": "Jiedara sur CodePen",
+      "href": "http://codepen.io/Jiedara/",
+      "x": -0.4,
+      "y": -0.2,
+      "size": 3
+    },
+    {
+      "id": "dev_webdoc",
+      "label": "WebDoc TSI Angoulême - Wordpress",
+      "href": "http://webdoc.mmi-angouleme.fr/",
+      "x": 0.7,
+      "y": -0.7,
+      "size": 3
+    },
+    {
+      "id": "img",
+      "label": "Graphisme",
+      "x": -3,
+      "y": 0.9,
+      "size": 10
+    },
+    {
+      "id": "img_securoute",
+      "label": "Affiche - Sécurité Routière", 
+      "href": "http://mvillanove.mmi-angouleme.fr/graphimg/securoute.png",
+      "x": -3.2,
+      "y": 1.5,
+      "size": 3
+    },
+    {
+      "id": "img_jiedarashibi",
+      "label": "Vectoriel - Portrait Shibi", 
+      "href": "http://mvillanove.mmi-angouleme.fr/graphimg/jiedarashibi.png",
+      "x": -3.8,
+      "y": 0.5,
+      "size": 3
+    },
+    {
+      "id": "img_parasprite",
+      "label": "Vectoriel - Parasprite", 
+      "href": "http://mvillanove.mmi-angouleme.fr/graphimg/parasprite.png",
+      "x": -3.4,
+      "y": -0.1,
+      "size": 3
+    },
+    {
+      "id": "img_papillusion",
+      "label": "Vectoriel - Papillusion", 
+      "href": "http://mvillanove.mmi-angouleme.fr/graphimg/papillusion.png",
+      "x": -3.2,
+      "y": 0.2,
+      "size": 3
+    },
+    {
+      "id": "img_jiedaraback",
+      "label": "Fond personnalisé", 
+      "href": "http://mvillanove.mmi-angouleme.fr/graphimg/jiedaraback.png",
+      "x": -3.95,
+      "y": 1.2,
+      "size": 3
+    },
+    {
+      "id": "other",
+      "label": "Autres",
+      "href": "",
+      "x": 1,
+      "y": 1,
+      "size": 10
+    },
+    {
+      "id": "other_linkedin",
+      "label": "LinkedIn", 
+      "href": "http://fr.linkedin.com/in/jiedara/",
+      "x": 0.4,
+      "y": 0.8,
+      "size": 3
+    },
+    {
+      "id": "other_fahrenheit",
+      "label": "FAHRENHEIT - Le Magazine",
+      "href": "http://mvillanove.mmi-angouleme.fr/FAHRENHEIT.pdf",
+      "x": -0.4,
+      "y": 1.3,
+      "size": 3
+    },
+    {
+      "id": "other_cv",
+      "label": "Mon CV",
+      "href": "http://mvillanove.mmi-angouleme.fr/CV.pdf",
+      "x": 0.7,
+      "y": 0.6,
+      "size": 3
+    },
+    {
+      "id": "other_expofr",
+      "label": "Etude Politico-Sociale MLP",
+      "href": "http://mvillanove.mmi-angouleme.fr/expofr/public_html/",
+      "x": 1.1,
+      "y": 0.4,
+      "size": 3
+    }
+    
+    
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "video",
+      "target": "video_lapinou"
+    },{
+      "id": "e1",
+      "source": "video",
+      "target": "video_rimbaud"
+    },{
+      "id": "e2",
+      "source": "video",
+      "target": "video_carrey"
+    },{
+      "id": "e3",
+      "source": "video",
+      "target": "video_TAIS"
+    },{
+      "id": "e4",
+      "source": "video",
+      "target": "video_stopmorphing"
+    },{
+      "id": "e5",
+      "source": "video",
+      "target": "video_guideinternet"
+    },{
+      "id": "e6",
+      "source": "video_lapinou",
+      "target": "video_stopmorphing",
+      "label":"Concours d'animation 24h/24s"
+    },{
+      "id": "e7",
+      "source": "video_lapinou",
+      "target": "video_stopmorphing",
+      "label":"Concours d'animation 24h/24s"
+    },{
+      "id": "e8",
+      "source": "video_lapinou",
+      "target": "dev"
+    },{
+      "id": "e9",
+      "source": "other",
+      "target": "other_fahrenheit"
+    },{
+      "id": "e10",
+      "source": "other",
+      "target": "other_linkedin"
+    },{
+      "id": "e11",
+      "source": "other_fahrenheit",
+      "target": "img"
+    },{
+      "id": "e12",
+      "source": "video_guideinternet",
+      "target": "img"
+    },{
+      "id": "e13",
+      "source": "other",
+      "target": "other_cv"
+    },{
+      "id": "e14",
+      "source": "other",
+      "target": "other_expofr"
+    },{
+      "id": "e15",
+      "source": "other_expofr",
+      "target": "dev"
+    },{
+      "id": "e16",
+      "source": "dev",
+      "target": "dev_schooldance"
+    } ,{
+      "id": "e17",
+      "source": "dev",
+      "target": "dev_vraifaux"
+    },{
+      "id": "e18",
+      "source": "dev",
+      "target": "dev_seisme"
+    },{
+      "id": "e19",
+      "label" : "Stage CCSTI Martinique | Carbet des Sciences",
+      "source": "dev_vraifaux",
+      "target": "dev_seisme"
+    },{
+      "id": "e20",
+      "source": "img",
+      "target": "dev_seisme"
+    },{
+      "id": "e21",
+      "source": "dev",
+      "target": "dev_videoapp"
+    },{
+      "id": "e22",
+      "source": "img",
+      "target": "img_securoute"
+    },{
+      "id": "e23",
+      "source": "img",
+      "target": "img_jiedaraback"
+    },{
+      "id": "e24",
+      "source": "img",
+      "target": "img_papillusion"
+    },{
+      "id": "e25",
+      "source": "img",
+      "target": "img_jiedaraback"
+    },{
+      "id": "e26",
+      "source": "img",
+      "target": "img_jiedarashibi"
+    },{
+      "id": "e27",
+      "source": "img_jiedarashibi",
+      "target": "img_papillusion"
+    },{
+      "id": "e28",
+      "source": "img_papillusion",
+      "target": "img_parasprite"
+    },{
+      "id": "e29",
+      "source": "img_jiedarashibi",
+      "target": "img_parasprite"
+    },{
+      "id": "e30",
+      "source": "img",
+      "target": "img_parasprite"
+    },{
+      "id": "e31",
+      "source": "dev",
+      "target": "dev_filmo"
+    },{
+      "id": "e32",
+      "source": "video_lapinou",
+      "target": "video_berty"
+    },{
+      "id": "e33",
+      "source": "video_berty",
+      "target": "video_stopmorphing"
+    },{
+      "id": "e34",
+      "source": "video_berty",
+      "target": "video"
+    },{
+      "id": "e35",
+      "source": "dev_codepen",
+      "target": "dev"
+    },{
+      "id": "e36",
+      "source": "dev_webdoc",
+      "target": "dev"
+    }
+  ]
+}
