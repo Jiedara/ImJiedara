@@ -6,12 +6,12 @@ function sendMail($name, $email, $message)
 
     $name = trim(preg_replace($whitespace, '', $name));
     if (empty($name)) {
-        return false;
+        return 'name';
     }
 
     $email = trim(preg_replace($whitespace, ' ', $email));
     if (empty($email)) {
-        return false;
+        return 'mail';
     }
 
     $mail_to = 'm.villanove@laposte.net';
@@ -24,7 +24,11 @@ function sendMail($name, $email, $message)
     $headers =  "From: $email\r\n";
     $headers .= "Reply-To: '$email\r\n";
 
-    return mail($mail_to, $subject, $body, $headers);
+    if(mail($mail_to, $subject, $body, $headers)){
+        return 'ok';
+    }else {
+        return 'ko';
+    }
 }
 
 
@@ -36,4 +40,4 @@ $enterprise = isset($_POST['enterprise']) ? $_POST['enterprise'] : '';
 
 $mail_status = sendMail($name, $email, $message . '|' . $phone . '|' . $enterprise);
 
-header('location:index.php?return='.$mail_status.'#contact');
+header('location:index.php?return='.$mail_status.'&name='.$_POST["name"].'&email='.$_POST["email"].'&message='.$_POST["message"].'&phone='.$_POST["phone"].'&enterprise='.$_POST["enterprise"].'#contact');
