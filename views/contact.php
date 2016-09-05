@@ -93,7 +93,7 @@
                       </div>
                       <div class="form-group">
                         <label for="MessageForm">Votre Message *</label>
-                        <textarea class="form-control" required name="message" rows="8" id="MessageForm" placeholder="Pleins de mots doux" ><?php if(isset($_GET['message'])){ echo $_GET['message']; }  ?></textarea>
+                        <textarea class="form-control" required name="message" rows="8" id="MessageForm" placeholder="Pleins de mots doux" ><?php if(isset($_GET['message'])){ echo preg_replace('/\<br(\s*)?\/?\>/i', "\n", $_GET['message']); }  ?></textarea>
                       </div>
                       <button type="submit" class="btn btn-flat btn-lg"><span class="glyphicon glyphicon-send"></span> Envoyer</button>
                     </form>
