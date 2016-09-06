@@ -1098,6 +1098,9 @@ Main Section Section
   opacity: 0;
   width: 33.3333%;
   margin-left: -3px;
+  height: 330px;
+  overflow: hidden;
+  vertical-align: top;
 }
 
 @media (max-width: 700px) {
@@ -1112,12 +1115,24 @@ Main Section Section
 }
 #portfolio .grid-portfolio .item-portfolio {
   margin: 15px;
+  height: 300px;
+}
+#portfolio .grid-portfolio .item-portfolio .img-responsive {
+  margin: auto;
+  max-height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 #portfolio .grid-portfolio .item-portfolio a.preview-portfolio {
   position: relative;
   display: block;
   overflow: hidden;
+  height: 200px;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1126,6 +1141,7 @@ Main Section Section
 }
 
 #portfolio .grid-portfolio .item-portfolio a.preview-portfolio .mask {
+  z-index: 2;
   position: absolute;
   background: rgba(58, 90, 117, 0.5);
   top: -100%;
