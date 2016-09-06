@@ -34,7 +34,7 @@
                         <div class="item-portfolio">
                           <a href="assets/pdf/formation-laravel.pdf" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-file-pdf-o "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/laravelLogo.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Formation Laravel<small>Document crée chez Bulko pour former les autres développeurs de l'agence au framework PHP Laravel.</small></h5></div>
                         </div>
@@ -44,7 +44,7 @@
                         <div class="item-portfolio">
                           <a href="http://webdoc.mmi-angouleme.fr/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/webdocScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type.</small></h5></div>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="item-portfolio">
                           <a href="https://golgarud.github.io/myLocal/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/MyLocalScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les listes sous http://localhost/. Projet libre de <a href="https://github.com/Golgarud/">Golga</a>. </small></h5></div>
                         </div>
@@ -64,7 +64,7 @@
                         <div class="item-portfolio">
                           <a href="http://ccsti.imingo.net/risques_sismique/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/esoupareScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Le Jour où la Terre tremble (jQuery)<small>Mini jeu Jquery durant ma première année d'étude, dans le cadre de mon stage au CCSTI Martinique. </small></h5></div>
                         </div>
@@ -74,7 +74,7 @@
                         <div class="item-portfolio">
                           <a href="https://github.com/Jiedara/randumburger" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/amburgerScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Randumburger (CSS/JS)<small>Petit développement / extension, pour une icone de menu s'ouvrant avec des animations aléatoires. </small></h5></div>
                         </div>
@@ -84,7 +84,7 @@
                         <div class="item-portfolio">
                           <a href="http://www.villenavedornon.fr/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/villenaveScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Villenave D'Ornon (WordPress)<small>Le site de la ville de villenave, wordpress avec plugins spécifiques, fait sur mesure. Avec Bulko </small></h5></div>
                         </div>
@@ -94,7 +94,7 @@
                         <div class="item-portfolio">
                           <a href="http://www.mariagebretagne.fr/" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/mariageBretagneScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Mariage Bretagne<small>Présentation des Salons du Mariage en Bretagne. Développement spécifique, avec Backoffice complet. Avec Bulko </small></h5></div>
                         </div>
@@ -114,7 +114,7 @@
                         <div class="item-portfolio">
                           <a href="assets/website/portfolio1" target="_blank" class="preview-portfolio">
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                            <img src="img/portfolio/exPortfolioScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5>Ancien portfolio <small>Visualisation de mon ancien protfolio, utilisant un système jQuery de toile pour symboliser les projets. </small></h5></div>
                         </div>
