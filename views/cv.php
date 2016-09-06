@@ -230,7 +230,7 @@
                               <div class="event-content">
                                 <h4>Développeur Web</h4>
                                 <h5><a href='http://www.bulko.net/'>Agence Bulko</a></h5>
-                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprend toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence.</p>
+                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprend toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence. Mon travail chez Bulko me permet d'utiliser tout les jours des outils comme Gulp ou Compass, de développer des sites le framework Laravel ou encore de gérer le déploiement de CMS comme WordPress ou PrestaShop.</p>
                               </div>
                             </div>
                             <div class="item-event">
