@@ -119,12 +119,6 @@ body h6 {
 		background-image:url(../img/icons/jquery.svg);
 	}
 }
-.fa-brackets{
-	@extend .fa-customized;
-	&:before{
-		background-image:url(../img/icons/brackets.svg);
-	}
-}
 .fa-laravel{
 	@extend .fa-customized;
 	&:before{
@@ -157,13 +151,6 @@ body h6 {
 		background-image:url(../img/icons/gulp.png);
 	}
 }
-.fa-compass{
-	@extend .fa-customized;
-	&:before{
-		background-image:url(../img/icons/compass.png);
-		opacity:0.7;
-	}
-}
 .fa-composer{
 	@extend .fa-customized;
 	&:before{
@@ -172,10 +159,16 @@ body h6 {
 	}
 }
 .fa-npm{
-	@extend .fa-customized;
-	&:before{
-		background-image:url(../img/icons/npm.png);
-	}
+    @extend .fa-customized;
+    &:before{
+        background-image:url(../img/icons/npm.png);
+    }
+}
+.fa-sublime{
+    @extend .fa-customized;
+    &:before{
+        background-image:url(../img/icons/sublime.png);
+    }
 }
 
 /* end wrapper page section */

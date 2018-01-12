@@ -102,7 +102,7 @@ function init_gmap() {
     $('#map').gmap3({
       action: 'init',
       marker: {
-        address: "62 Rue Brizard 33000 Bordeaux",
+        address: "42 Rue Lesbroussard, 1050 Ixelles",
       },
       map: {
         options: {

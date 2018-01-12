@@ -21,7 +21,8 @@
                   <div id="slider-note" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <div class="carousel-inner">
                       <div class="item active">
-                        Gaucher dans la vie, ambidextre dans le développement. <br> J'aime le code, le web et sa culture, la programmation fonctionnelle, la Martinique, les cookies et les poneys !
+                        Gaucher dans la vie, ambidextre dans le développement. <br>
+                        Je créer des applications web efficaces et puissantes, avec pour objectif premier de résoudre les problèmes entre les hommes et les machines ! <br>
                       </div>
                     </div>
                   </div>
@@ -47,8 +48,7 @@
                 <!-- =========
                 Start Show Yor Name Section
                 ===================================-->
-                <h1 class="name">Martin Villanove <small>Développeur Web Full Stack</small></h1>
-                <p class="quick-contact">tel : 07 86 81 00 44 | email : m.villanove@laposte.net</p>
+                <h1 class="name">Martin Villanove <small>Développeur PHP Full Stack</small></h1>
                 <!-- =========
                 Start Show Yor Name Section
                 ===================================-->

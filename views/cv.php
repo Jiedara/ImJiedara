@@ -22,7 +22,7 @@
                           ===================================-->
                           <ul class="list-unstyled list-skills">
                             <li>
-                              <span class="caption-skill"><span class="fa fa-html5"></span> HTML</span>
+                              <span class="caption-skill"><span class="fa fa-html5"></span> HTML5 </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 99%;">
                                   <span>99.9% </span>
@@ -30,15 +30,7 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-css3"></span> CSS <small>(SASS, LESS)</small></span>
-                              <div class="progress">
-                                <div class="progress-bar" style="width: 99%;">
-                                  <span>99.9% </span>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <span class="caption-skill"><span class="fa fa-php"></span> PHP</span>
+                              <span class="caption-skill"><span class="fa fa-php"></span> PHP </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 85%;">
                                   <span>85% </span>
@@ -46,26 +38,34 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-javascript"></span> Javascript </span>
+                              <span class="caption-skill"><span class="fa fa-css3"></span> CSS <small>(SASS, LESS)</small> </span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 80%;">
-                                  <span>80% </span>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <span class="caption-skill"><span class="fa fa-database"></span> MYSQL</span>
-                              <div class="progress">
-                                <div class="progress-bar"  style="width: 70%;">
-                                  <span>70% </span>
+                                <div class="progress-bar" style="width: 75%;">
+                                  <span>75% </span>
                                 </div>
                               </div>
                             </li>
                             <li>
                               <span class="caption-skill"><span class="fa fa-terminal"></span> Admin. Système</span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 65%;">
+                                <div class="progress-bar" style="width: 70%;">
+                                  <span>70% </span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <span class="caption-skill"><span class="fa fa-database"></span> MYSQL</span>
+                              <div class="progress">
+                                <div class="progress-bar"  style="width: 65%;">
                                   <span>65% </span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <span class="caption-skill"><span class="fa fa-javascript"></span> Javascript </span>
+                              <div class="progress">
+                                <div class="progress-bar" style="width: 60%;">
+                                  <span>60% </span>
                                 </div>
                               </div>
                             </li>
@@ -86,10 +86,10 @@
                           <ul class="list-unstyled list-skills">
 
                             <li>
-                              <span class="caption-skill"><span class="fa fa-jquery"></span> Jquery (FrameWork JS)</span>
+                              <span class="caption-skill"><span class="fa fa-laravel"></span> Laravel (FrameWork PHP) </span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 90%;">
-                                  <span>90% </span>
+                                <div class="progress-bar" style="width: 85%;">
+                                  <span>85% </span>
                                 </div>
                               </div>
                             </li>
@@ -102,10 +102,10 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-laravel"></span> Laravel (FrameWork PHP) </span>
+                              <span class="caption-skill"><span class="fa fa-jquery"></span> Jquery (FrameWork JS)</span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 70%;">
-                                  <span>70% </span>
+                                <div class="progress-bar" style="width: 75%;">
+                                  <span>75% </span>
                                 </div>
                               </div>
                             </li>
@@ -145,13 +145,13 @@
 						<ul class="list-unstyled list-skills">
 
                             <li>
-                              <span class="caption-skill"><span class="fa fa-chrome"></span> Chromium (Navigateur) </span>
+                              <span class="caption-skill"><span class="fa fa-firefox"></span> Firefox (Navigateur) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-brackets"></span> Brackets (IDE) </span>
+                              <span class="caption-skill"><span class="fa fa-sublime"></span> Sublime Text (IDE) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-trello"></span> Trello (Gestion de projet) </span>
+                              <span class="caption-skill"><span class="fa fa-linux"></span> Ubuntu (OS) </span>
                             </li>
                             <li>
                               <span class="caption-skill"><span class="fa fa-git"></span> GIT (Versionning) </span>
@@ -160,13 +160,13 @@
                               <span class="caption-skill"><span class="fa fa-gulp"></span> Gulp (Automatisation) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-compass"></span> Compass (SASS) </span>
-                            </li>
-                            <li>
                               <span class="caption-skill"><span class="fa fa-composer"></span> Composer (Dépendances) </span>
                             </li>
                             <li>
                               <span class="caption-skill"><span class="fa fa-npm"></span> NPM (Dépendances) </span>
+                            </li>
+                            <li>
+                              <span class="caption-skill"><span class="fa fa-workflow"></span> Agile (WorkFlow) </span>
                             </li>
                             <li>
                               <span class="caption-skill"><span class="fa fa-pied-piper-pp"></span> Silicon Valley (Série) </span>
@@ -226,11 +226,19 @@
 							<div class="box-block">
                           <div class="time-line">
                             <div class="item-event current">
+                              <span class="date">2017</span>
+                              <div class="event-content">
+                                <h4>Consultant Développeur PHP</h4>
+                                <h5><a href='http://www.adneom.com/'>Adneom Belgium</a> | Consultant chez <a href="https://www.joyn.be/fr">Joyn</a></h5>
+                                <p>L'opportunité de partir à l'étranger, pour un contrat de Volontariat International en Entreprise (VIE), me pousse à rechercher une entreprise possédant une culture différente de ce que j'ai connu jusqu'alors. Adneom m'as permis de devenir consultant, participant alors à des missions plus longues et plus complexes. Pour JOYN, j'ai ainsi pu participer à la maintenance et l'évolution de leur CRM et ERP, avec environ 6000 clients B2B. J'ai aussi pu apprendre de nouveaux framework, comme CakePHP, et assurer mes connaissances sur Laravel !</p>
+                              </div>
+                            </div>
+                            <div class="item-event">
                               <span class="date">2016</span>
                               <div class="event-content">
                                 <h4>Développeur Web</h4>
                                 <h5><a href='http://www.bulko.net/'>Agence Bulko</a></h5>
-                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprend toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence. Mon travail chez Bulko me permet d'utiliser tout les jours des outils comme Gulp ou Compass, de développer des sites le framework Laravel ou encore de gérer le déploiement de CMS comme WordPress ou PrestaShop.</p>
+                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprend toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence. Mon travail chez Bulko me permet d'utiliser tout les jours des outils comme Gulp ou Compass, de développer des sites avec le framework Laravel ou encore de gérer le déploiement de CMS comme WordPress ou PrestaShop.</p>
                               </div>
                             </div>
                             <div class="item-event">

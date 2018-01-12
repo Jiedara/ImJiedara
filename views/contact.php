@@ -15,8 +15,8 @@
                       <div class="info-map">
                         <h3>Contact</h3>
                         <ul class="list-unstyled list-info">
-                          <li><i class="fa fa-home"></i> 62 Rue Brizard | Bordeaux</li>
-                          <li><i class="fa fa-phone"></i> 07 86 81 00 44</li>
+                          <li><i class="fa fa-home"></i>42 Rue Lesbroussard, Bruxelles</li>
+                          <li><i class="fa fa-phone"></i> +337 86 81 00 44</li>
                           <li><i class="fa fa-github"></i> <a href="https://github.com/Jiedara">Github</a></li>
                           <li><i class="fa fa-codepen"></i> <a href="https://codepen.io/Jiedara/">CodePen</a></li>
                           <li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/5685789/jiedara">StackOverflow</a></li>
