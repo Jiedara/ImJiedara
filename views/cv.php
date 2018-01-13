@@ -192,7 +192,7 @@
                               <div class="event-content">
                                 <h4>Licence Professionnelle TAIS</h4>
                                 <h5>IUT Angoulême</h5>
-                                <p>Après deux années d'études pluridisciplinaire, je décide de laisser de côté la programmation pour me concentrer sur l'audiovisuel, domaine qui m'as toujours fasciné. La licence TAIS, Technique de l'Audiovisuel, de l'Image et du Son était un rêve d'enfant pour moi. Après une année pleine de beaux projets, je comprend finalement que je n'ai jamais pu décrocher mon esprit du web et du développement. Tout de même, cette année d'étude, obtenue avec mention, aura été la plus riche en projets et en rencontres.</p>
+                                <p>Après deux années d'études pluridisciplinaires, je décide de laisser de côté la programmation pour me concentrer sur l'audiovisuel, domaine qui m'a toujours fasciné. La licence TAIS, Technique de l'Audiovisuel, de l'Image et du Son était un rêve d'enfant pour moi. Après une année pleine de beaux projets, je comprends finalement que je n'ai jamais pu décroché mon esprit du web et du développement. Tout de même, cette année d'étude, obtenue avec mention, aura été la plus riche en projets et en rencontres.</p>
                               </div>
                             </div>
                             <div class="item-event">
@@ -200,7 +200,7 @@
                               <div class="event-content">
                                 <h4>DUT SRC, Spécialité Programmation</h4>
                                 <h5>IUT Angoulême</h5>
-                                <p>Mon BAC en poche, hésitant sur mes poursuites d'études, je décide de choisir une voie large, dans laquel j'aurais le choix entre différents domaines, et où je pourrais aborder différents sujets. Ayant toujours été très curieux, le DUT SRC, Services et Réseaux de Communication était parfait. Cette formation proposait trois grand enseignement parallèles. De la Communication, de l'Audiovisuel et de la Programmation. C'est à cette époque que ma passion pour le web grandi, en même temps que mon intêret pour le monde du développement</p>
+                                <p>Mon BAC en poche, hésitant sur mes poursuites d'études, je décide de choisir une voie large, dans laquelle j'aurai le choix entre différents domaines, où je pourrai aborder différents sujets. Ayant toujours été très curieux, le DUT SRC, Services et Réseaux de Communication était parfait. Cette formation proposait trois grands enseignements parallèles. De la Communication, de l'Audiovisuel et de la Programmation. C'est à cette époque que ma passion pour le web grandit, en même temps que mon intêret pour le monde du développement</p>
                               </div>
                             </div>
                             <div class="item-event last">
@@ -208,7 +208,7 @@
                               <div class="event-content">
                                 <h4>Baccalauréat Scientifique, Spécialité Science de la Vie et de la Terre</h4>
                                 <h5>Lycée Frantz Fanon, Martinique</h5>
-                                <p>Martiniquais depuis ma plus tendre enfance, c'est forcément sur cette petite île que je passe un baccalauréat scientifique. Toujours curieux, je me passionne particulièrement pour les sciences (en particulier la biologie), la philosophie et surtout, l'informatique. Mon BAC avec mention en poche, il ne me restait plus qu'a trouver ma voie...
+                                <p>Martiniquais depuis ma plus tendre enfance, c'est forcément sur cette petite île que je passe un baccalauréat scientifique. Toujours curieux, je me passionne beaucoup pour les sciences (en particulier la biologie), la philosophie et surtout, l'informatique. Mon BAC avec mention en poche, il ne me restait plus qu'à trouver ma voie...
                                 </p>
                               </div>
                             </div>
@@ -230,7 +230,7 @@
                               <div class="event-content">
                                 <h4>Consultant Développeur PHP</h4>
                                 <h5><a href='http://www.adneom.com/'>Adneom Belgium</a> | Consultant chez <a href="https://www.joyn.be/fr">Joyn</a></h5>
-                                <p>L'opportunité de partir à l'étranger, pour un contrat de Volontariat International en Entreprise (VIE), me pousse à rechercher une entreprise possédant une culture différente de ce que j'ai connu jusqu'alors. Adneom m'as permis de devenir consultant, participant alors à des missions plus longues et plus complexes. Pour JOYN, j'ai ainsi pu participer à la maintenance et l'évolution de leur CRM et ERP, avec environ 6000 clients B2B. J'ai aussi pu apprendre de nouveaux framework, comme CakePHP, et assurer mes connaissances sur Laravel !</p>
+                                <p>L'opportunité de partir à l'étranger, pour un contrat de Volontariat International en Entreprise (VIE), me pousse à rechercher une entreprise possédant une culture différente de ce que j'ai connu jusqu'alors. Adneom m'a permis de devenir consultant, participant alors à des missions plus longues et plus complexes. Pour JOYN, j'ai ainsi pu participer à la maintenance et l'évolution de leur CRM et ERP, avec environ 6000 clients B2B. J'ai aussi pu apprendre de nouveaux framework, comme CakePHP, et assurer mes connaissances sur Laravel !</p>
                               </div>
                             </div>
                             <div class="item-event">
@@ -238,7 +238,7 @@
                               <div class="event-content">
                                 <h4>Développeur Web</h4>
                                 <h5><a href='http://www.bulko.net/'>Agence Bulko</a></h5>
-                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprend toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence. Mon travail chez Bulko me permet d'utiliser tout les jours des outils comme Gulp ou Compass, de développer des sites avec le framework Laravel ou encore de gérer le déploiement de CMS comme WordPress ou PrestaShop.</p>
+                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprends toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence. Mon travail chez Bulko me permet d'utiliser tous les jours des outils comme Gulp ou Compass, de développer des sites avec le framework Laravel ou encore de gérer le déploiement de CMS comme WordPress ou PrestaShop.</p>
                               </div>
                             </div>
                             <div class="item-event">
@@ -246,7 +246,7 @@
                               <div class="event-content">
                                 <h4>Stage Développeur Web</h4>
                                 <h5><a href='http://www.bulko.net/'>Agence Bulko</a></h5>
-                                <p>Sortant tout juste de mes études en validant ma dernière année avec ce stage, l'agence Bulko m'as permis de comprendre le fonctionnement concret d'une entreprise, mais aussi de m'intégrer à une équipe et surtout, de m'améliorer grandement dans de nombreux domaines. Que ce soit en programmation pure, en gestion du workflow, en gestion de projet ou même parfois en graphisme, j'ai eu chez Bulko, la meilleure des formation. </p>
+                                <p>Sortant tout juste de mes études en validant ma dernière année avec ce stage, l'agence Bulko m'a permis de comprendre le fonctionnement concret d'une entreprise, mais aussi de m'intégrer à une équipe et surtout, de m'améliorer grandement dans de nombreux domaines. Que ce soit en programmation pure, en gestion du workflow, en gestion de projet ou même parfois en graphisme, j'ai eu chez Bulko, la meilleure des formations. </p>
                               </div>
                             </div>
                             <div class="item-event last">
