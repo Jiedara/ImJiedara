@@ -22,7 +22,7 @@
                     <div class="carousel-inner">
                       <div class="item active">
                         Gaucher dans la vie, ambidextre dans le développement. <br>
-                        Je créer des applications web efficaces et puissantes, avec pour objectif premier de résoudre les problèmes entre les hommes et les machines ! <br>
+                        Je crée des applications web efficaces et puissantes, avec pour objectif premier de résoudre les problèmes entre les hommes et les machines ! <br>
                       </div>
                     </div>
                   </div>
