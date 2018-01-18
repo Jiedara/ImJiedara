@@ -5,6 +5,19 @@ Options -Indexes
 # Jiedara settings #
 # ######## #
 
+
+ <IfModule mod_rewrite.c> 
+     RewriteEngine On
+ 
+     # Redirect Trailing Slashes...
+     RewriteRule ^(.*)/$ /$1 [L,R]
+ 
+     # Handle Front Controller...
+     RewriteCond %{REQUEST_FILENAME} !-d
+     RewriteCond %{REQUEST_FILENAME} !-f
+     RewriteRule ^ index.php [L]
+ </IfModule>
+ 
  # G-zip START
  <IfModule mod_deflate.c>
    # force deflate for mangled headers
