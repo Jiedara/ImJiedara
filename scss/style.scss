@@ -825,12 +825,74 @@ Footer Section
 ========================================== */
 /* wrapper footer section */
 .footer {
-	text-align: center;
-	color:white;
-	font-weight: 300;
-	position: relative;
-	z-index: 2;
-	font-size: 12px;
-	padding: 20px;
+    text-align: center;
+    color:white;
+    font-weight: 300;
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    padding: 20px;
 }
 /* end warapper footer section */
+
+
+/* ======================================= 
+Language Option 
+========================================== */
+
+$ribbon-active: #249ebd;
+$ribbon-bg: #63a4b5;
+$ribbon-w: 40px;
+$ribbon-tail: 10px;
+
+.ribbon {
+    padding:0 0 $ribbon-tail 0;
+    display: inline-block;
+    position:relative;
+    width:$ribbon-w;
+    vertical-align: top;
+
+    a {
+        background:$ribbon-bg;
+        color:#fff;
+        padding:0.5em 0;
+        text-align:center;
+        display: block;
+        text-decoration: none;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        -o-transition: padding .3s;
+        transition: padding .3s;
+        
+        &.active {
+            padding:1em 0;
+            background:$ribbon-active;
+            &:after {
+                border-left: $ribbon-w/2 solid $ribbon-active;
+                border-right: $ribbon-w/2 solid $ribbon-active;
+            }
+        }
+
+        &:hover {
+            padding:1em 0;
+            background:$ribbon-active;
+            &:after {
+                border-left: $ribbon-w/2 solid $ribbon-active;
+                border-right: $ribbon-w/2 solid $ribbon-active;
+            }
+        }
+
+        &:after {
+            border-left: $ribbon-w/2 solid $ribbon-bg;
+            border-right: $ribbon-w/2 solid $ribbon-bg;
+            border-bottom: $ribbon-tail solid transparent;
+            bottom:0;
+            content:'';
+            height: 0;
+            left:0;
+            position:absolute;
+            width: 0;
+        }
+    }
+
+}

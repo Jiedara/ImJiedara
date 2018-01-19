@@ -12,6 +12,10 @@
             ===================================-->
             <header class="portrait">
               <div class="bg-line"></div>
+              <div class="languages">
+                <div class="lang-fr ribbon"> <a href="fr" <?php echo $lang == 'fr' ? 'class="active"' : '' ?> >FR</a> </div>
+                <div class="lang-en ribbon"> <a href="en" <?php echo $lang == 'en' ? 'class="active"' : '' ?> >EN</a> </div>
+              </div>
               <div class="body-portrait">
 
                 <!-- =========
@@ -21,8 +25,7 @@
                   <div id="slider-note" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <div class="carousel-inner">
                       <div class="item active">
-                        Gaucher dans la vie, ambidextre dans le développement. <br>
-                        Je crée des applications web efficaces et puissantes, avec pour objectif premier de résoudre les problèmes entre les hommes et les machines ! <br>
+                        <?php __('presentation'); ?>
                       </div>
                     </div>
                   </div>
@@ -48,7 +51,7 @@
                 <!-- =========
                 Start Show Yor Name Section
                 ===================================-->
-                <h1 class="name">Martin Villanove <small>Développeur PHP Full Stack</small></h1>
+                <h1 class="name">Martin Villanove <small><?php __('job_title') ?></small></h1>
                 <!-- =========
                 Start Show Yor Name Section
                 ===================================-->

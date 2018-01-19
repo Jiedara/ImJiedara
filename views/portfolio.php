@@ -4,24 +4,24 @@
                 ===================================-->
                 <div id='portfolio' class="tab-pane fade">
                   <div class="body-content">
-                    <h3 class="title with-icon"><span class="fa fa-briefcase icn-title"></span> Mes travaux</h3>
+                    <h3 class="title with-icon"><span class="fa fa-briefcase icn-title"></span> <?php __('my_works') ?></h3>
 
                     <!-- =========
                     Start list control postfolio section
                     ===================================-->
                     <div class="text-center">
                       <ul class="control-profolio list-inline">
-                        <li class="filter active" data-filter="all">Tout</li>
-                        <li class="filter" data-filter="dev">Développement</li>
-                        <li class="filter" data-filter="vid">AudioVisuel</li>
-                        <li class="filter" data-filter="design">Design</li>
+                        <li class="filter active" data-filter="all"><?php __('all') ?></li>
+                        <li class="filter" data-filter="dev"><?php __('dev') ?></li>
+                        <li class="filter" data-filter="vid"><?php __('film') ?></li>
+                        <li class="filter" data-filter="design"><?php __('design') ?></li>
                       </ul>
                     </div>
                     <!-- =========
                     End list control postfolio section
                     ===================================-->
-
-                    <!-- =========
+ 
+                   <!-- =========
                     Start grid postfolio section
                     ===================================-->
                     <ul id='portfolio-grid' class="list-unstyled grid-portfolio">
@@ -36,7 +36,17 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-file-pdf-o "></i></div></div>
                             <img src="img/portfolio/laravelLogo.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Formation Laravel<small>Document crée chez Bulko pour former les autres développeurs de l'agence au framework PHP Laravel.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_laravel_formation') ?></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
+                          <a href="https://github.com/Oyana/weborama" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <img src="img/portfolio/weborama.png" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5><?php __('project_weborama') ?></h5></div>
                         </div>
                       </li>
 
@@ -46,7 +56,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/webdocScreen.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_webdoc') ?></h5></div>
                         </div>
                       </li>
 
@@ -56,7 +66,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
                             <img src="img/portfolio/MyLocalScreen.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les listes sous http://localhost/. Projet libre de <a href="https://github.com/Golgarud/">Golga</a>. </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_mylocal') ?></h5></div>
                         </div>
                       </li>
 
@@ -66,17 +76,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/esoupareScreen.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le Jour où la Terre tremble (jQuery)<small>Mini jeu Jquery durant ma première année d'étude, dans le cadre de mon stage au CCSTI Martinique. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="https://github.com/Jiedara/randumburger" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
-                            <img src="img/portfolio/amburgerScreen.png" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Randumburger (CSS/JS)<small>Petit développement / extension, pour une icone de menu s'ouvrant avec des animations aléatoires. </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_ccsti_game') ?></h5></div>
                         </div>
                       </li>
 
@@ -86,17 +86,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/villenaveScreen.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Villenave D'Ornon (WordPress)<small>Le site de la ville de villenave, wordpress avec plugins spécifiques, fait sur mesure. Avec Bulko </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix dev">
-                        <div class="item-portfolio">
-                          <a href="http://www.mariagebretagne.fr/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
-                            <img src="img/portfolio/mariageBretagneScreen.png" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Mariage Bretagne<small>Présentation des Salons du Mariage en Bretagne. Développement spécifique, avec Backoffice complet. Avec Bulko </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_villenave') ?></h5></div>
                         </div>
                       </li>
 
@@ -106,7 +96,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Ce portfolio (trop meta !)<small>Lien GitHub vers ce portfolio, permettant de voir le code source (scss, organisation des fichiers, ...). </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_portfolio') ?></h5></div>
                         </div>
                       </li>
 
@@ -116,7 +106,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/exPortfolioScreen.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Ancien portfolio <small>Visualisation de mon ancien protfolio, utilisant un système jQuery de toile pour symboliser les projets. </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_portfolio_previous') ?></h5></div>
                         </div>
                       </li>
 
@@ -126,7 +116,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Moody Jungle (WordPress)<small>Site LifeStyle / Mode / Beauté, classique wordpress, installation, configuration et intégration de maquette. </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_moody') ?></h5></div>
                         </div>
                       </li>
 
@@ -136,7 +126,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Lost School Dance Party (jQuery)<small>RandomGameJam, faire un jeu sur un titre tiré au hasard. Développement Javascript/jQuery sur 48H. </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_lsdp') ?></h5></div>
                         </div>
                       </li>
 
@@ -149,7 +139,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Tu veux ma photo ?<small>Bande Annonce humorisitique, mélange de deux films avec Jim Carrey.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_jim_carrey') ?></h5></div>
                         </div>
                       </li>
 
@@ -159,7 +149,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le Dormeur Du Val <small>Illustration AudioVisuelle du poème d'Arthur Rimbaud.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_dormeur') ?></h5></div>
                         </div>
                       </li>
 
@@ -169,7 +159,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-link "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le guide des Internet <small>Projet de fin d'étude, WebDocumentaire sur la culture du web.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_guide_internet') ?></h5></div>
                         </div>
                       </li>
 
@@ -179,7 +169,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>StopMorphing <small>Premier Court Métrage pour le concours 24h/24s, sur le thème de la Métamorphose.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_stopmorphing') ?></h5></div>
                         </div>
                       </li>
 
@@ -189,7 +179,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>La Petite Illusion (CSS) <small>Second Court Métrage pour le concours 24h/24s, sur le thème de l'Illusion <br> Entièrement réalisé avec du CSS et jQuery.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_illusion') ?></h5></div>
                         </div>
                       </li>
 
@@ -199,7 +189,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-play "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Le Lit De Berty <small>Dernier Court Métrage pour le concours 24h/24s, sur le thème de la Liberté.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_berty') ?></h5></div>
                         </div>
                       </li>
 
@@ -214,37 +204,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
                             <img src="assets/images/liberte-expression.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Libertée d'expression (Photo)<small> Fausse campagne Amnetsy International pour revendiquer notre libertée d'expression. Photographie et retouche sous Photoshop. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix design">
-                        <div class="item-portfolio">
-                          <a href="assets/images/papillusion.png" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="assets/images/papillusion.png" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Papillusion (Vectoriel)<small> Suite d'essais avec Illustrator, création d'un petit pokémon. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix design">
-                        <div class="item-portfolio">
-                          <a href="assets/images/parasprite.png" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="assets/images/parasprite.png" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Parasprite (Vectoriel)<small> Suite d'essais avec Illustrator, création d'un parasprite. </small></h5></div>
-                        </div>
-                      </li>
-
-                      <li class="mix design">
-                        <div class="item-portfolio">
-                          <a href="assets/images/shibi.png" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
-                            <img src="assets/images/shibi.png" alt="" class="img-responsive"/>
-                          </a>
-                          <div class="desc-portfolio"><h5>Shibi (Vectoriel)<small> AutoPortrait stylisé 'shibi' (manga). </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_expression') ?></h5></div>
                         </div>
                       </li>
 
@@ -254,7 +214,7 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
                             <img src="assets/images/secu-route.png" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>Sécurité routière (Photo)<small> Fausse campagne de sensibilisation à la sécurité routière. Photographie et montage Photoshop. </small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_false_advert') ?></h5></div>
                         </div>
                       </li>
 
@@ -264,7 +224,17 @@
                             <div class="mask"><div class="icn-center"><i class="fa fa-file-pdf-o "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
-                          <div class="desc-portfolio"><h5>FAHRENHEIT<small>Magazine complet, fait en fin de licence. Ecriture de deux articles et participation à la création du design.</small></h5></div>
+                          <div class="desc-portfolio"><h5><?php __('project_fahrenheit') ?></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix design">
+                        <div class="item-portfolio">
+                          <a href="https://github.com/Jiedara/ludus-bug" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5><?php __('project_ludus') ?></h5></div>
                         </div>
                       </li>
 

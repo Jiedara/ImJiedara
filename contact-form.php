@@ -40,4 +40,4 @@ $enterprise = isset($_POST['enterprise']) ? $_POST['enterprise'] : '';
 
 $mail_status = sendMail($name, $email, $message . '|' . $phone . '|' . $enterprise);
 
-header('location:index.php?return='.$mail_status.'&name='.$_POST["name"].'&email='.$_POST["email"].'&phone='.$_POST["phone"].'&enterprise='.$_POST["enterprise"].'#contact');
+header('location:'SITE_URL . $lang . '?return='.$mail_status.'&name='.$_POST["name"].'&email='.$_POST["email"].'&phone='.$_POST["phone"].'&enterprise='.$_POST["enterprise"].'#contact');

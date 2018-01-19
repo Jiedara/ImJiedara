@@ -13,7 +13,7 @@
 
                       <div class="col-md-12">
                        	<div class="col-md-4 col-xs-4">
-							<h3 class="title with-icon"><span class="fa fa-code icn-title"></span> Languages de développement</h3>
+							<h3 class="title with-icon"><span class="fa fa-code icn-title"></span> <?php __('dev_lang') ?></h3>
 							<div class="box-block">
 
 
@@ -46,7 +46,7 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-terminal"></span> Admin. Système</span>
+                              <span class="caption-skill"><span class="fa fa-terminal"></span> Dev Ops</span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 70%;">
                                   <span>70% </span>
@@ -77,7 +77,7 @@
                         </div>
 						</div>
                         <div class="col-md-4 col-xs-4">
-							<h3 class="title with-icon"><span class="fa fa-cogs icn-title"></span> Outils de développement </h3>
+							<h3 class="title with-icon"><span class="fa fa-cogs icn-title"></span> <?php __('dev_tools') ?> </h3>
 							<div class="box-block">
 
                           <!-- =========
@@ -137,7 +137,7 @@
 						  </div>
 						</div>
 						<div class="col-md-4 col-xs-4 list-nobar">
-							<h3 class="title with-icon"><span class="fa fa-code-fork icn-title"></span> Mon Cadre de Travail </h3>
+							<h3 class="title with-icon"><span class="fa fa-code-fork icn-title"></span> <?php __('work_env') ?> </h3>
 							<div class="box-block">
                           <!-- =========
                           STart workflow Progress point bars section
@@ -145,7 +145,7 @@
 						<ul class="list-unstyled list-skills">
 
                             <li>
-                              <span class="caption-skill"><span class="fa fa-firefox"></span> Firefox (Navigateur) </span>
+                              <span class="caption-skill"><span class="fa fa-firefox"></span> Firefox (<?php __('nav') ?>) </span>
                             </li>
                             <li>
                               <span class="caption-skill"><span class="fa fa-sublime"></span> Sublime Text (IDE) </span>
@@ -157,19 +157,19 @@
                               <span class="caption-skill"><span class="fa fa-git"></span> GIT (Versionning) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-gulp"></span> Gulp (Automatisation) </span>
+                              <span class="caption-skill"><span class="fa fa-gulp"></span> Gulp (<?php __('automat') ?>) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-composer"></span> Composer (Dépendances) </span>
+                              <span class="caption-skill"><span class="fa fa-composer"></span> Composer (<?php __('dep') ?>) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-npm"></span> NPM (Dépendances) </span>
+                              <span class="caption-skill"><span class="fa fa-npm"></span> NPM (<?php __('dep') ?>) </span>
                             </li>
                             <li>
                               <span class="caption-skill"><span class="fa fa-workflow"></span> Agile (WorkFlow) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-pied-piper-pp"></span> Silicon Valley (Série) </span>
+                              <span class="caption-skill"><span class="fa fa-pied-piper-pp"></span> Silicon Valley (<?php __('serie') ?>) </span>
                             </li>
                           </ul>
 
@@ -184,32 +184,31 @@
                         ===================================-->
 
                         <div class="col-md-6 col-xs-12 work-path">
-							<h3 class="title with-icon"><span class="fa fa-graduation-cap icn-title"></span> Études</h3>
+							<h3 class="title with-icon"><span class="fa fa-graduation-cap icn-title"></span> <?php __('studies') ?></h3>
 							<div class="box-block">
                           <div class="time-line">
                             <div class="item-event current">
                               <span class="date">2015</span>
                               <div class="event-content">
-                                <h4>Licence Professionnelle TAIS</h4>
+                                <h4><?php __('stud_2015_title') ?></h4>
                                 <h5>IUT Angoulême</h5>
-                                <p>Après deux années d'études pluridisciplinaires, je décide de laisser de côté la programmation pour me concentrer sur l'audiovisuel, domaine qui m'a toujours fasciné. La licence TAIS, Technique de l'Audiovisuel, de l'Image et du Son était un rêve d'enfant pour moi. Après une année pleine de beaux projets, je comprends finalement que je n'ai jamais pu décroché mon esprit du web et du développement. Tout de même, cette année d'étude, obtenue avec mention, aura été la plus riche en projets et en rencontres.</p>
+                                <p><?php __('stud_2015_content') ?></p>
                               </div>
                             </div>
                             <div class="item-event">
                               <span class="date">2014</span>
                               <div class="event-content">
-                                <h4>DUT SRC, Spécialité Programmation</h4>
+                                <h4><?php __('stud_2014_title') ?></h4>
                                 <h5>IUT Angoulême</h5>
-                                <p>Mon BAC en poche, hésitant sur mes poursuites d'études, je décide de choisir une voie large, dans laquelle j'aurai le choix entre différents domaines, où je pourrai aborder différents sujets. Ayant toujours été très curieux, le DUT SRC, Services et Réseaux de Communication était parfait. Cette formation proposait trois grands enseignements parallèles. De la Communication, de l'Audiovisuel et de la Programmation. C'est à cette époque que ma passion pour le web grandit, en même temps que mon intêret pour le monde du développement</p>
+                                <p><?php __('stud_2014_content') ?></p>
                               </div>
                             </div>
                             <div class="item-event last">
                               <span class="date">2012</span>
                               <div class="event-content">
-                                <h4>Baccalauréat Scientifique, Spécialité Science de la Vie et de la Terre</h4>
+                                <h4><?php __('stud_2012_title') ?></h4>
                                 <h5>Lycée Frantz Fanon, Martinique</h5>
-                                <p>Martiniquais depuis ma plus tendre enfance, c'est forcément sur cette petite île que je passe un baccalauréat scientifique. Toujours curieux, je me passionne beaucoup pour les sciences (en particulier la biologie), la philosophie et surtout, l'informatique. Mon BAC avec mention en poche, il ne me restait plus qu'à trouver ma voie...
-                                </p>
+                                <p><?php __('stud_2012_content') ?></p>
                               </div>
                             </div>
                           </div>
@@ -222,39 +221,39 @@
                         Start Time line section
                         ===================================-->
                         <div class="col-md-6 col-xs-12">
-							<h3 class="title with-icon"><span class="glyphicon glyphicon-briefcase icn-title"></span> Emplois</h3>
+							<h3 class="title with-icon"><span class="glyphicon glyphicon-briefcase icn-title"></span> <?php __('emp') ?></h3>
 							<div class="box-block">
                           <div class="time-line">
                             <div class="item-event current">
                               <span class="date">2017</span>
                               <div class="event-content">
-                                <h4>Consultant Développeur PHP</h4>
-                                <h5><a href='http://www.adneom.com/'>Adneom Belgium</a> | Consultant chez <a href="https://www.joyn.be/fr">Joyn</a></h5>
-                                <p>L'opportunité de partir à l'étranger, pour un contrat de Volontariat International en Entreprise (VIE), me pousse à rechercher une entreprise possédant une culture différente de ce que j'ai connu jusqu'alors. Adneom m'a permis de devenir consultant, participant alors à des missions plus longues et plus complexes. Pour JOYN, j'ai ainsi pu participer à la maintenance et l'évolution de leur CRM et ERP, avec environ 6000 clients B2B. J'ai aussi pu apprendre de nouveaux framework, comme CakePHP, et assurer mes connaissances sur Laravel !</p>
+                                <h4><?php __('emp_2017_title') ?></h4>
+                                <h5><?php __('emp_2017_place') ?></h5>
+                                <p><?php __('emp_2017_content') ?></p>
                               </div>
                             </div>
                             <div class="item-event">
                               <span class="date">2016</span>
                               <div class="event-content">
-                                <h4>Développeur Web</h4>
-                                <h5><a href='http://www.bulko.net/'>Agence Bulko</a></h5>
-                                <p>Suite à un stage et deux contrats de deux mois, il est temps d'intégrer la structure à temps plein, et pour une durée indéterminée. J'apprends toujours énormément de choses, mais je peux aussi désormais me pencher sur l'amélioration de mes acquis et participer concrètement à l'évolution de l'agence. Mon travail chez Bulko me permet d'utiliser tous les jours des outils comme Gulp ou Compass, de développer des sites avec le framework Laravel ou encore de gérer le déploiement de CMS comme WordPress ou PrestaShop.</p>
+                                <h4><?php __('emp_2016_title') ?></h4>
+                                <h5><?php __('emp_2016_place') ?></h5>
+                                <p><?php __('emp_2016_content') ?></p>
                               </div>
                             </div>
                             <div class="item-event">
                               <span class="date">2015</span>
                               <div class="event-content">
-                                <h4>Stage Développeur Web</h4>
-                                <h5><a href='http://www.bulko.net/'>Agence Bulko</a></h5>
-                                <p>Sortant tout juste de mes études en validant ma dernière année avec ce stage, l'agence Bulko m'a permis de comprendre le fonctionnement concret d'une entreprise, mais aussi de m'intégrer à une équipe et surtout, de m'améliorer grandement dans de nombreux domaines. Que ce soit en programmation pure, en gestion du workflow, en gestion de projet ou même parfois en graphisme, j'ai eu chez Bulko, la meilleure des formations. </p>
+                                <h4><?php __('emp_2015_title') ?></h4>
+                                <h5><?php __('emp_2015_place') ?></h5>
+                                <p><?php __('emp_2015_content') ?></p>
                               </div>
                             </div>
                             <div class="item-event last">
                               <span class="date">2014</span>
                               <div class="event-content">
-                                <h4>Concepteur de jeux</h4>
-                                <h5><a href="http://carbet-sciences.net/">CCSTI Martinique</a></h5>
-                                <p>J'ai travaillé dans le cadre d'un stage de 2 mois, pour le compte du Carbet des Sciences (CCSTI Martinique) à la création de différents jeux. Ces derniers avaient pour but de sensibiliser les populations à l'écologie et aux risques sismiques. Le tout était entièrement développé pour le web, avec des technologies simples (Javascript, CSS et HTML)</p>
+                                <h4><?php __('emp_2014_title') ?></h4>
+                                <h5><?php __('emp_2014_place') ?></h5>
+                                <p><?php __('emp_2014_content') ?></p>
                               </div>
                             </div>
                           </div>
@@ -266,9 +265,9 @@
 
 
                         <div class="col-md-12 col-xs-12 download-block">
-							<h3 class="title with-icon"><span class="fa fa-file icn-title"></span> Télécharger le CV</h3>
+							<h3 class="title with-icon"><span class="fa fa-file icn-title"></span> <?php __('cv_download') ?> </h3>
 							<div class="box-block">
-							  <a href="#" class="btn btn-flat btn-block"><i class="fa fa-download"></i> Télécharger le CV</a>
+							  <a href="#" class="btn btn-flat btn-block"><i class="fa fa-download"></i> <?php __('cv_download') ?> </a>
 							</div>
 						</div>
 
