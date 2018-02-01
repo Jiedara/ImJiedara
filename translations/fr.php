@@ -56,10 +56,10 @@ $translations = [
     'project_laravel_formation' => "Formation Laravel<small>Document crée chez Bulko pour former les autres développeurs de l'agence au framework PHP Laravel.</small>",
     'project_weborama' => "Weborama<small>Une framework simple et rapide pour des petits projets. Contient un système de routing, une architecture MVC et un outil de gestion de base utilisant PDO.</small>",
     'project_webdoc' => "Site WebDoc TAIS (WordPress)<small>Site des WebDocumentaires de la licence TAIS, WordPress avec Custom Content/Post Type.</small>",
-    'project_mylocal' => "MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les listes sous http://localhost/. Projet libre de <a href='https://github.com/Golgarud/'>Golga</a>. </small>",
+    'project_mylocal' => "MyLocal<small> Projet de 'dashboard' pour développeurs, en listant les sites disponibles sous http://localhost/. Projet libre de <a href='https://github.com/Golgarud/'>Golga</a>. </small>",
     'project_ccsti_game' => "Le Jour où la Terre tremble (jQuery)<small>Mini jeu Jquery durant ma première année d'étude, dans le cadre de mon stage au CCSTI Martinique. </small>",
     'project_villenave' => "Villenave D'Ornon (WordPress)<small>Le site de la ville de villenave, wordpress avec plugins spécifiques, fait sur mesure. Avec Bulko </small>",
-    'project_portfolio' => "Ce portfolio (trop meta !)<small>Lien GitHub vers ce portfolio, permettant de voir le code source (scss, organisation des fichiers, ...). </small>",
+    'project_portfolio' => "Ce portfolio (trop meta !)<small>Lien GitHub vers ce portfolio, permettant de voir le code source (scss, php, organisation des fichiers, ...). </small>",
     'project_portfolio_previous' => "Ancien portfolio <small>Visualisation de mon ancien protfolio, utilisant un système jQuery de toile pour symboliser les projets. </small>",
     'project_moody' => "Moody Jungle (WordPress)<small>Site LifeStyle / Mode / Beauté, classique wordpress, installation, configuration et intégration de maquette. </small>",
     'project_lsdp' => "Lost School Dance Party (jQuery)<small>RandomGameJam, faire un jeu sur un titre tiré au hasard. Développement Javascript/jQuery sur 48H. </small>",
@@ -67,12 +67,12 @@ $translations = [
     'project_dormeur' => "Le Dormeur Du Val <small>Illustration AudioVisuelle du poème d'Arthur Rimbaud.</small>",
     'project_guide_internet' => "Le guide des Internet <small>Projet de fin d'étude, WebDocumentaire sur la culture du web.</small>",
     'project_stopmorphing' => "StopMorphing <small>Premier Court Métrage pour le concours 24h/24s, sur le thème de la Métamorphose.</small>",
-    'project_illusion' => "La Petite Illusion (CSS) <small>Second Court Métrage pour le concours 24h/24s, sur le thème de l'Illusion <br> Entièrement réalisé avec du CSS et jQuery.</small>",
+    'project_illusion' => "La Petite Illusion (CSS) <small>Second Court Métrage pour le concours 24h/24s, sur le thème de l'Illusion <br> Entièrement fait avec CSS et Javascript.</small>",
     'project_berty' => "Le Lit De Berty <small>Dernier Court Métrage pour le concours 24h/24s, sur le thème de la Liberté.</small>",
     'project_false_advert' => "Sécurité routière (Photo)<small> Fausse campagne de sensibilisation à la sécurité routière. Photographie et montage Photoshop. </small>",
     'project_expression' => "Libertée d'expression (Photo)<small> Fausse campagne Amnetsy International pour revendiquer notre libertée d'expression. Photographie et retouche sous Photoshop. </small>",
     'project_fahrenheit' => "FAHRENHEIT<small>Magazine complet, fait en fin de licence. Ecriture de deux articles et participation à la création du design.</small>",
-    'project_ludus' => "Ludus Bug<small>Un jeu fait sous Unity pour la Ludus Game Jam 2017. Level design et création des des mécaniques de gameplay.</small>",
+    'project_ludus' => "Ludus Bug<small>Un jeu fait sous Unity pour la Ludus Game Jam 2017. Level design et création des mécaniques de gameplay.</small>",
 
     
     //Contact
