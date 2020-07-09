@@ -5,7 +5,10 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-oyana": "^0.6.2"
+    "gulp": "^4.0.2",
+    "oyanachan": "^1.2.3"
+  },
+  "resolutions": {
+    "natives": "1.1.3"
   }
 }

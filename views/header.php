@@ -40,8 +40,8 @@
                 <div class="portrait-img-area">
                   <img src="img/avatar.jpg" alt="avatar" class="avatar"/>
                   <div class="profile-links">
-                    <a target="_blank" href="https://fr.linkedin.com/in/jiedara" class="linkedin" data-toggle="tooltip" data-placement="left" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/Jiedara" class="github" data-toggle="tooltip" data-placement="right" title="GitHub"><i class="fa fa-github-alt"></i></a>
+                    <a target="_blank" href="https://fr.linkedin.com/in/jiedara" class="linkedin" data-toggle="tooltip" data-placement="left" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/Jiedara" class="github" data-toggle="tooltip" data-placement="right" title="GitHub"><i class="fab fa-github-alt"></i></a>
                   </div>
                 </div>
                 <!-- =========

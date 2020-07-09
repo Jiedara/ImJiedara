@@ -22,15 +22,7 @@
                           ===================================-->
                           <ul class="list-unstyled list-skills">
                             <li>
-                              <span class="caption-skill"><span class="fa fa-html5"></span> HTML5 </span>
-                              <div class="progress">
-                                <div class="progress-bar" style="width: 99%;">
-                                  <span>99.9% </span>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <span class="caption-skill"><span class="fa fa-php"></span> PHP </span>
+                              <span class="caption-skill"><span class="fab fa-php"></span> PHP </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 85%;">
                                   <span>85% </span>
@@ -38,7 +30,7 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-css3"></span> CSS <small>(SASS, LESS)</small> </span>
+                              <span class="caption-skill"><span class="fab fa-html5"></span> <span class="fab fa-css3"></span> HTML/CSS <small>(SASS, LESS)</small> </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 75%;">
                                   <span>75% </span>
@@ -46,23 +38,23 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-terminal"></span> Dev Ops</span>
+                              <span class="caption-skill"><span class="fa fa-database"></span> MYSQL</span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 70%;">
-                                  <span>70% </span>
+                                <div class="progress-bar"  style="width: 75%;">
+                                  <span>75% </span>
                                 </div>
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-database"></span> MYSQL</span>
+                              <span class="caption-skill"><span class="fa fa-terminal"></span> Sysadmin / Dev Ops</span>
                               <div class="progress">
-                                <div class="progress-bar"  style="width: 65%;">
+                                <div class="progress-bar" style="width: 65%;">
                                   <span>65% </span>
                                 </div>
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-javascript"></span> Javascript </span>
+                              <span class="caption-skill"><span class="fab fa-js"></span> Javascript </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 60%;">
                                   <span>60% </span>
@@ -86,23 +78,15 @@
                           <ul class="list-unstyled list-skills">
 
                             <li>
-                              <span class="caption-skill"><span class="fa fa-laravel"></span> Laravel (FrameWork PHP) </span>
+                              <span class="caption-skill"><span class="fab fa-laravel"></span> Laravel (FrameWork PHP) </span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 85%;">
-                                  <span>85% </span>
+                                <div class="progress-bar" style="width: 90%;">
+                                  <span>90% </span>
                                 </div>
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-wordpress"></span> WordPress (CMS) </span>
-                              <div class="progress">
-                                <div class="progress-bar" style="width: 80%;">
-                                  <span>80% </span>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <span class="caption-skill"><span class="fa fa-jquery"></span> Jquery (FrameWork JS)</span>
+                              <span class="caption-skill"><span class="fab fa-symfony"></span> Symfony (FrameWork PHP) </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 75%;">
                                   <span>75% </span>
@@ -110,23 +94,23 @@
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-prestashop"></span> Prestashop (CMS) </span>
+                              <span class="caption-skill"><span class="fab fa-js"></span> Jquery (FrameWork JS)</span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 60%;">
-                                  <span>60% </span>
+                                <div class="progress-bar" style="width: 75%;">
+                                  <span>75% </span>
                                 </div>
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-illu"></span> Illustrator </span>
+                              <span class="caption-skill"><span class="fab fa-wordpress"></span> WordPress (CMS) </span>
                               <div class="progress">
-                                <div class="progress-bar" style="width: 60%;">
-                                  <span>60% </span>
+                                <div class="progress-bar" style="width: 70%;">
+                                  <span>70% </span>
                                 </div>
                               </div>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-toshop"></span> Photoshop </span>
+                              <span class="caption-skill"><span class="fab fa-docker"></span> Docker </span>
                               <div class="progress">
                                 <div class="progress-bar" style="width: 50%;">
                                   <span>50% </span>
@@ -137,7 +121,7 @@
 						  </div>
 						</div>
 						<div class="col-md-4 col-xs-4 list-nobar">
-							<h3 class="title with-icon"><span class="fa fa-code-fork icn-title"></span> <?php __('work_env') ?> </h3>
+							<h3 class="title with-icon"><span class="fas fa-laptop-code icn-title"></span> <?php __('work_env') ?> </h3>
 							<div class="box-block">
                           <!-- =========
                           STart workflow Progress point bars section
@@ -145,31 +129,25 @@
 						<ul class="list-unstyled list-skills">
 
                             <li>
-                              <span class="caption-skill"><span class="fa fa-firefox"></span> Firefox (<?php __('nav') ?>) </span>
+                              <span class="caption-skill"><span class="fab fa-firefox"></span> Firefox (<?php __('nav') ?>) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-sublime"></span> Sublime Text (IDE) </span>
+                              <span class="caption-skill"><span class="fas fa-file-code"></span> PHPStorm (IDE) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-linux"></span> Ubuntu (OS) </span>
+                              <span class="caption-skill"><span class="fab fa-linux"></span> Ubuntu (OS) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-git"></span> GIT (Versionning) </span>
+                              <span class="caption-skill"><span class="fab fa-git"></span> GIT (Versionning) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-gulp"></span> Gulp (<?php __('automat') ?>) </span>
+                              <span class="caption-skill"><span class="fas fa-folder"></span> Composer (<?php __('dep') ?>) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-composer"></span> Composer (<?php __('dep') ?>) </span>
+                              <span class="caption-skill"><span class="fas fa-stream"></span> Agile (WorkFlow) </span>
                             </li>
                             <li>
-                              <span class="caption-skill"><span class="fa fa-npm"></span> NPM (<?php __('dep') ?>) </span>
-                            </li>
-                            <li>
-                              <span class="caption-skill"><span class="fa fa-workflow"></span> Agile (WorkFlow) </span>
-                            </li>
-                            <li>
-                              <span class="caption-skill"><span class="fa fa-pied-piper-pp"></span> Silicon Valley (<?php __('serie') ?>) </span>
+                              <span class="caption-skill"><span class="fab fa-pied-piper-pp"></span> Silicon Valley (<?php __('serie') ?>) </span>
                             </li>
                           </ul>
 

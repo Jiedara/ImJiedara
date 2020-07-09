@@ -15,12 +15,12 @@
                       <div class="info-map">
                         <h3>Contact</h3>
                         <ul class="list-unstyled list-info">
-                          <li><i class="fa fa-home"></i><?php __('address') ?></li>
-                          <li><i class="fa fa-phone"></i> +337 86 81 00 44</li>
-                          <li><i class="fa fa-github"></i> <a href="https://github.com/Jiedara">Github</a></li>
-                          <li><i class="fa fa-codepen"></i> <a href="https://codepen.io/Jiedara/">CodePen</a></li>
-                          <li><i class="fa fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/5685789/jiedara">StackOverflow</a></li>
-                          <li><i class="fa fa-linkedin"></i> <a href="https://fr.linkedin.com/in/jiedara">Linkedin</a></li>
+                          <li><i class="fa fa-home"></i> <?php __('address') ?></li>
+                          <li><i class="fa fa-phone"></i> +33 7 86 81 00 44</li>
+                          <li><i class="fab fa-github"></i> <a href="https://github.com/Jiedara">Github</a></li>
+                          <li><i class="fab fa-codepen"></i> <a href="https://codepen.io/Jiedara/">CodePen</a></li>
+                          <li><i class="fab fa-stack-overflow"></i> <a href="http://stackoverflow.com/users/5685789/jiedara">StackOverflow</a></li>
+                          <li><i class="fab fa-linkedin"></i> <a href="https://fr.linkedin.com/in/jiedara">Linkedin</a></li>
                         </ul>
                       </div>
                     </div>
@@ -104,7 +104,6 @@
                   </div>
                 </div>
 
-              </div>
               <!-- =========
               End tab content section
               ===================================-->

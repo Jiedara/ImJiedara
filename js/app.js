@@ -102,7 +102,7 @@ function init_gmap() {
     $('#map').gmap3({
       action: 'init',
       marker: {
-        address: "42 Rue Lesbroussard, 1050 Ixelles",
+        address: "11 Rue de Pindray, 16340 L'Isle D'Espagnac",
       },
       map: {
         options: {

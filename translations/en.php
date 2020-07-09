@@ -1,8 +1,8 @@
 <?php
 
 $translations = [
-    'presentation' => "Left handed in life, ambidextrous in development. <br> I create powerfull and efficient web application, that are meant to resolve problems between humans and computers !",
-    'job_title' => "PHP Full Stack Developer",
+    'presentation' => "Left handed in life, ambidextrous in development. <br> I create powerful and efficient web application, that are meant to resolve problems between humans and computers !",
+    'job_title' => "Freelance PHP Developer",
 
     // CV Text
     'dev_lang' => "Development Languages",
@@ -86,12 +86,12 @@ $translations = [
     'project_expression' => "Speech liberty (Photo)<small> Fake advert of Amnetsy International about speech liberty. Photography and retouching in Photoshop. </small>",
     'project_fahrenheit' => "FAHRENHEIT<small>Complete magazine, done at the end of the Licence. Writing of two articles and participation on the global design.</small>",
     'project_ludus' => "Ludus Bug<small>Unity game done for the Ludus Game Jam 2017. Level design and Game design.</small>",
+    'project_laravelorient' => "Laravel Orient<small>A PHP package to implement a Graph OrientDB database in a Laravel ecosystem.</small>",
 
-    
     //Contact
     
     'contact_title' => 'When do we meet ?',
-    'address' => '42 Lesbroussard Street, Brussel',
+    'address' => '11 Pindray Street, L\'Isle D\'Espagnac',
 
     "contact_ko" => "There were an error with the sending of your request. Please come back later !",
     "contact_ok" => "Your request has been sent. I'm coming back to you quickly !",
@@ -101,7 +101,7 @@ $translations = [
     'name' => 'Your Name *',
     'name_placeholder' => "Mine is Martin Villanove ... don't take mine !",
     'company' => 'Your company',
-    'company_placeholder' => "The best in the world I guess !",
+    'company_placeholder' => "BestCompany.co",
     'email' => 'Your Email *',
     'email_placeholder' => "Otherwise, I will not be able to reach you...",
     'phone' => 'Your Phone',

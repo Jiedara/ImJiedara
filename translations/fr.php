@@ -2,7 +2,7 @@
 
 $translations = [
     'presentation' => "Gaucher dans la vie, ambidextre dans le développement. <br> Je crée des applications web efficaces et puissantes, avec pour objectif premier de résoudre les problèmes entre les Hommes et les machines !",
-    'job_title' => "Développeur PHP Full Stack",
+    'job_title' => "Développeur PHP Freelance",
 
     // CV Text
     'dev_lang' => "Languages de développement",
@@ -73,12 +73,13 @@ $translations = [
     'project_expression' => "Libertée d'expression (Photo)<small> Fausse campagne Amnetsy International pour revendiquer notre libertée d'expression. Photographie et retouche sous Photoshop. </small>",
     'project_fahrenheit' => "FAHRENHEIT<small>Magazine complet, fait en fin de licence. Ecriture de deux articles et participation à la création du design.</small>",
     'project_ludus' => "Ludus Bug<small>Un jeu fait sous Unity pour la Ludus Game Jam 2017. Level design et création des mécaniques de gameplay.</small>",
+    'project_laravelorient' => "Laravel Orient<small>Un package PHP permettant la connection et l'implementation d'une base de données graph OrientDB dans un ecosystème Laravel.</small>",
 
     
     //Contact
     
     'contact_title' => 'On se voit quand ?',
-    'address' => '42 Rue Lesbroussard, Bruxelles',
+    'address' => '11 rue de Pindray, L\'Isle D\'Espagnac',
 
     "contact_ko" => "Une erreur est survenue, veuillez réessayer ultérieurement.",
     "contact_ok" => "Votre demande a bien été envoyée. Je vous recontacte dans les plus bref délais !",
@@ -88,7 +89,7 @@ $translations = [
     'name' => 'Votre Nom *',
     'name_placeholder' => "Par exemple moi, c'est Martin Villanove",
     'company' => 'Votre entreprise',
-    'company_placeholder' => "La meilleure du monde je présume",
+    'company_placeholder' => "MeilleurEntreprise.fr",
     'email' => 'Votre adresse mail *',
     'email_placeholder' => "Sinon, je ne pourrais pas vous contacter...",
     'phone' => 'Votre téléphone',

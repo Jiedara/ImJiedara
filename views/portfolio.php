@@ -33,7 +33,7 @@
                       <li class="mix dev">
                         <div class="item-portfolio">
                           <a href="assets/pdf/formation-laravel.pdf" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-file-pdf-o "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fas fa-file-pdf"></i></div></div>
                             <img src="img/portfolio/laravelLogo.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_laravel_formation') ?></h5></div>
@@ -42,8 +42,18 @@
 
                       <li class="mix dev">
                         <div class="item-portfolio">
+                          <a href="https://github.com/Jiedara/laravel-orientdb" target="_blank" class="preview-portfolio">
+                            <div class="mask"><div class="icn-center"><i class="fab fa-github "></i></div></div>
+                            <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
+                          </a>
+                          <div class="desc-portfolio"><h5><?php __('project_laravelorient') ?></h5></div>
+                        </div>
+                      </li>
+
+                      <li class="mix dev">
+                        <div class="item-portfolio">
                           <a href="https://github.com/Oyana/weborama" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fab fa-github "></i></div></div>
                             <img src="img/portfolio/weborama.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_weborama') ?></h5></div>
@@ -63,7 +73,7 @@
                       <li class="mix dev">
                         <div class="item-portfolio">
                           <a href="https://golgarud.github.io/myLocal/" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fab fa-github "></i></div></div>
                             <img src="img/portfolio/MyLocalScreen.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_mylocal') ?></h5></div>
@@ -93,7 +103,7 @@
                       <li class="mix dev">
                         <div class="item-portfolio">
                           <a href="https://github.com/Jiedara/ImJiedara" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fab fa-github "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_portfolio') ?></h5></div>
@@ -201,7 +211,7 @@
                       <li class="mix design">
                         <div class="item-portfolio">
                           <a href="assets/images/liberte-expression.png" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fas fa-image "></i></div></div>
                             <img src="assets/images/liberte-expression.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_expression') ?></h5></div>
@@ -211,7 +221,7 @@
                       <li class="mix design">
                         <div class="item-portfolio">
                           <a href="assets/images/secu-route.png" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-picture-o "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fas fa-image "></i></div></div>
                             <img src="assets/images/secu-route.png" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_false_advert') ?></h5></div>
@@ -231,7 +241,7 @@
                       <li class="mix design">
                         <div class="item-portfolio">
                           <a href="https://github.com/Jiedara/ludus-bug" target="_blank" class="preview-portfolio">
-                            <div class="mask"><div class="icn-center"><i class="fa fa-github "></i></div></div>
+                            <div class="mask"><div class="icn-center"><i class="fab fa-github "></i></div></div>
                             <img src="img/portfolio/default.jpg" alt="" class="img-responsive"/>
                           </a>
                           <div class="desc-portfolio"><h5><?php __('project_ludus') ?></h5></div>
