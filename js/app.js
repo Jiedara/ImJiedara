@@ -75,7 +75,7 @@ function init_text_wait() {
 
 function init_check_hash() {
   if (window.location.hash) {
-    var pages = ["#resume", "#portfolio", "#contact"]
+    var pages = ["#resume", "#portfolio", "#contact", "#cgv"]
     if ($.inArray(window.location.hash, pages) > -1) {
 		$('a[href="' + window.location.hash + '"]').trigger('click');
       	$('.img-arrow, #main-content').fadeIn(function() {
