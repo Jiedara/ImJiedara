@@ -20,5 +20,7 @@ include('views/portfolio.php');
 
 include('views/contact.php');
 
+include('views/cgv.php');
+
 include('views/footer.php');
 include('views/foot.php');

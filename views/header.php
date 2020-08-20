@@ -73,9 +73,10 @@
               ===================================-->
               <nav id='navigation'>
                 <ul class="navigation-list clearfix list-unstyled">
-                  <li class="col-lg-4 no-padding"><a href="#resume" data-toggle="tab" data-menu="resume"><i class="icon-newspaper"></i>  <h2>Curriculum Vitae</h2></a></li>
-                  <li class="col-lg-4 no-padding"><a href="#portfolio" data-toggle="tab" data-menu="portfolio"><i class="icon-folder-open"></i> <h2>Portfolio</h2></a></li>
-                  <li class="col-lg-4 no-padding"><a href="#contact" data-toggle="tab" data-menu="contact"><i class="icon-mail"></i> <h2>Contact</h2></a></li>
+                  <li class="col-lg-3 no-padding"><a href="#resume" data-toggle="tab" data-menu="resume"><i class="icon-newspaper"></i>  <h2>Curriculum Vitae</h2></a></li>
+                  <li class="col-lg-3 no-padding"><a href="#portfolio" data-toggle="tab" data-menu="portfolio"><i class="icon-folder-open"></i> <h2>Portfolio</h2></a></li>
+                  <li class="col-lg-3 no-padding"><a href="#contact" data-toggle="tab" data-menu="contact"><i class="icon-mail"></i> <h2>Contact</h2></a></li>
+                  <li class="col-lg-3 no-padding"><a href="#cgv" data-toggle="tab" data-menu="cgv"><i class="icon-contract"></i> <h2>Conditions Générales</h2></a></li>
                 </ul>
               </nav>
               <!-- =========

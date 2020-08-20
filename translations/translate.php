@@ -3,9 +3,16 @@
 function __($translate_key, $echo = 1)
 {
     global $translations;
+
+    if (isset($translations[$translate_key])) {
+        $text = $translations[$translate_key];
+    } else {
+        $text = $translate_key;
+    }
+
     if($echo){
-        echo $translations[$translate_key];
+        echo $text;
     }else {
-        return $translations[$translate_key];
+        return $text;
     }
 }
